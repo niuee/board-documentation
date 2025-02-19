@@ -6,7 +6,7 @@
 
 # Class: DefaultTouchStrategy
 
-Defined in: [touch-strategy/touch-strategy.ts:21](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L21)
+Defined in: [touch-strategy/touch-strategy.ts:21](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L21)
 
 ## Implements
 
@@ -19,7 +19,7 @@ Defined in: [touch-strategy/touch-strategy.ts:21](https://github.com/niuee/board
 
 > **new DefaultTouchStrategy**(`canvas`, `inputObserver`, `alignCoordinateSystem`): [`DefaultTouchStrategy`](DefaultTouchStrategy.md)
 
-Defined in: [touch-strategy/touch-strategy.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L36)
+Defined in: [touch-strategy/touch-strategy.ts:36](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L36)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [touch-strategy/touch-strategy.ts:36](https://github.com/niuee/board
 
 > **get** **alignCoordinateSystem**(): `boolean`
 
-Defined in: [touch-strategy/touch-strategy.ts:90](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L90)
+Defined in: [touch-strategy/touch-strategy.ts:90](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L90)
 
 ##### Returns
 
@@ -57,7 +57,7 @@ Defined in: [touch-strategy/touch-strategy.ts:90](https://github.com/niuee/board
 
 > **set** **alignCoordinateSystem**(`alignCoordinateSystem`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:94](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L94)
+Defined in: [touch-strategy/touch-strategy.ts:94](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L94)
 
 ##### Parameters
 
@@ -81,7 +81,7 @@ Defined in: [touch-strategy/touch-strategy.ts:94](https://github.com/niuee/board
 
 > **get** **canvas**(): [`HTMLCanvasElement`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement)
 
-Defined in: [touch-strategy/touch-strategy.ts:214](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L214)
+Defined in: [touch-strategy/touch-strategy.ts:214](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L214)
 
 ##### Returns
 
@@ -99,7 +99,7 @@ Defined in: [touch-strategy/touch-strategy.ts:214](https://github.com/niuee/boar
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [touch-strategy/touch-strategy.ts:86](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L86)
+Defined in: [touch-strategy/touch-strategy.ts:86](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L86)
 
 ##### Returns
 
@@ -117,7 +117,7 @@ Defined in: [touch-strategy/touch-strategy.ts:86](https://github.com/niuee/board
 
 > **get** **panDisabled**(): `boolean`
 
-Defined in: [touch-strategy/touch-strategy.ts:98](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L98)
+Defined in: [touch-strategy/touch-strategy.ts:98](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L98)
 
 ##### Returns
 
@@ -127,7 +127,7 @@ Defined in: [touch-strategy/touch-strategy.ts:98](https://github.com/niuee/board
 
 > **set** **panDisabled**(`panDisabled`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:102](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L102)
+Defined in: [touch-strategy/touch-strategy.ts:102](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L102)
 
 ##### Parameters
 
@@ -151,7 +151,7 @@ Defined in: [touch-strategy/touch-strategy.ts:102](https://github.com/niuee/boar
 
 > **get** **rotateDisabled**(): `boolean`
 
-Defined in: [touch-strategy/touch-strategy.ts:114](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L114)
+Defined in: [touch-strategy/touch-strategy.ts:114](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L114)
 
 ##### Returns
 
@@ -161,7 +161,7 @@ Defined in: [touch-strategy/touch-strategy.ts:114](https://github.com/niuee/boar
 
 > **set** **rotateDisabled**(`rotateDisabled`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:118](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L118)
+Defined in: [touch-strategy/touch-strategy.ts:118](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L118)
 
 ##### Parameters
 
@@ -185,7 +185,7 @@ Defined in: [touch-strategy/touch-strategy.ts:118](https://github.com/niuee/boar
 
 > **get** **touchStateMachine**(): [`TouchSM`](TouchSM.md)
 
-Defined in: [touch-strategy/touch-strategy.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L47)
+Defined in: [touch-strategy/touch-strategy.ts:47](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L47)
 
 ##### Returns
 
@@ -203,7 +203,7 @@ Defined in: [touch-strategy/touch-strategy.ts:47](https://github.com/niuee/board
 
 > **get** **zoomDisabled**(): `boolean`
 
-Defined in: [touch-strategy/touch-strategy.ts:106](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L106)
+Defined in: [touch-strategy/touch-strategy.ts:106](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L106)
 
 ##### Returns
 
@@ -213,7 +213,7 @@ Defined in: [touch-strategy/touch-strategy.ts:106](https://github.com/niuee/boar
 
 > **set** **zoomDisabled**(`zoomDisabled`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:110](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L110)
+Defined in: [touch-strategy/touch-strategy.ts:110](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L110)
 
 ##### Parameters
 
@@ -235,7 +235,7 @@ Defined in: [touch-strategy/touch-strategy.ts:110](https://github.com/niuee/boar
 
 > **addTouchPoints**(`points`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L127)
+Defined in: [touch-strategy/touch-strategy.ts:127](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L127)
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: [touch-strategy/touch-strategy.ts:127](https://github.com/niuee/boar
 
 > **bindListeners**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L51)
+Defined in: [touch-strategy/touch-strategy.ts:51](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L51)
 
 #### Returns
 
@@ -269,7 +269,7 @@ Defined in: [touch-strategy/touch-strategy.ts:51](https://github.com/niuee/board
 
 > **disableStrategy**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L66)
+Defined in: [touch-strategy/touch-strategy.ts:66](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L66)
 
 #### Returns
 
@@ -285,7 +285,7 @@ Defined in: [touch-strategy/touch-strategy.ts:66](https://github.com/niuee/board
 
 > **enableStrategy**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L62)
+Defined in: [touch-strategy/touch-strategy.ts:62](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L62)
 
 #### Returns
 
@@ -301,7 +301,7 @@ Defined in: [touch-strategy/touch-strategy.ts:62](https://github.com/niuee/board
 
 > **getCurrentTouchPointsCount**(): `number`
 
-Defined in: [touch-strategy/touch-strategy.ts:122](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L122)
+Defined in: [touch-strategy/touch-strategy.ts:122](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L122)
 
 #### Returns
 
@@ -317,7 +317,7 @@ Defined in: [touch-strategy/touch-strategy.ts:122](https://github.com/niuee/boar
 
 > **getInitialTouchPointsPositions**(`idents`): [`TouchPoints`](../type-aliases/TouchPoints.md)[]
 
-Defined in: [touch-strategy/touch-strategy.ts:188](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L188)
+Defined in: [touch-strategy/touch-strategy.ts:188](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L188)
 
 #### Parameters
 
@@ -339,7 +339,7 @@ Defined in: [touch-strategy/touch-strategy.ts:188](https://github.com/niuee/boar
 
 > **notifyOnPan**(`delta`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:206](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L206)
+Defined in: [touch-strategy/touch-strategy.ts:206](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L206)
 
 #### Parameters
 
@@ -361,7 +361,7 @@ Defined in: [touch-strategy/touch-strategy.ts:206](https://github.com/niuee/boar
 
 > **notifyOnZoom**(`zoomAmount`, `anchorPoint`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:210](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L210)
+Defined in: [touch-strategy/touch-strategy.ts:210](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L210)
 
 #### Parameters
 
@@ -387,7 +387,7 @@ Defined in: [touch-strategy/touch-strategy.ts:210](https://github.com/niuee/boar
 
 > **removeTouchPoints**(`identifiers`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:133](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L133)
+Defined in: [touch-strategy/touch-strategy.ts:133](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L133)
 
 #### Parameters
 
@@ -409,7 +409,7 @@ Defined in: [touch-strategy/touch-strategy.ts:133](https://github.com/niuee/boar
 
 > **resetAttributes**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:58](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L58)
+Defined in: [touch-strategy/touch-strategy.ts:58](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L58)
 
 #### Returns
 
@@ -421,7 +421,7 @@ Defined in: [touch-strategy/touch-strategy.ts:58](https://github.com/niuee/board
 
 > **setUp**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:71](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L71)
+Defined in: [touch-strategy/touch-strategy.ts:71](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L71)
 
 #### Returns
 
@@ -437,7 +437,7 @@ Defined in: [touch-strategy/touch-strategy.ts:71](https://github.com/niuee/board
 
 > **tearDown**(): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:78](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L78)
+Defined in: [touch-strategy/touch-strategy.ts:78](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L78)
 
 #### Returns
 
@@ -453,7 +453,7 @@ Defined in: [touch-strategy/touch-strategy.ts:78](https://github.com/niuee/board
 
 > **touchcancelHandler**(`e`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:154](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L154)
+Defined in: [touch-strategy/touch-strategy.ts:154](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L154)
 
 #### Parameters
 
@@ -471,7 +471,7 @@ Defined in: [touch-strategy/touch-strategy.ts:154](https://github.com/niuee/boar
 
 > **touchendHandler**(`e`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:165](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L165)
+Defined in: [touch-strategy/touch-strategy.ts:165](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L165)
 
 #### Parameters
 
@@ -489,7 +489,7 @@ Defined in: [touch-strategy/touch-strategy.ts:165](https://github.com/niuee/boar
 
 > **touchmoveHandler**(`e`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:176](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L176)
+Defined in: [touch-strategy/touch-strategy.ts:176](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L176)
 
 #### Parameters
 
@@ -507,7 +507,7 @@ Defined in: [touch-strategy/touch-strategy.ts:176](https://github.com/niuee/boar
 
 > **touchstartHandler**(`e`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:141](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L141)
+Defined in: [touch-strategy/touch-strategy.ts:141](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L141)
 
 #### Parameters
 
@@ -525,7 +525,7 @@ Defined in: [touch-strategy/touch-strategy.ts:141](https://github.com/niuee/boar
 
 > **updateTouchPoints**(`pointsMoved`): `void`
 
-Defined in: [touch-strategy/touch-strategy.ts:198](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/touch-strategy/touch-strategy.ts#L198)
+Defined in: [touch-strategy/touch-strategy.ts:198](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/touch-strategy/touch-strategy.ts#L198)
 
 #### Parameters
 

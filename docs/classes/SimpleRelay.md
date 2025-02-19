@@ -6,7 +6,7 @@
 
 # Class: SimpleRelay
 
-Defined in: [control-center/control-center.ts:18](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L18)
+Defined in: [control-center/control-center.ts:18](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L18)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [control-center/control-center.ts:18](https://github.com/niuee/board
 
 > **new SimpleRelay**(`panHandler`, `zoomHandler`, `rotationHandler`, `camera`): [`SimpleRelay`](SimpleRelay.md)
 
-Defined in: [control-center/control-center.ts:25](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L25)
+Defined in: [control-center/control-center.ts:25](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L25)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [control-center/control-center.ts:25](https://github.com/niuee/board
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-Defined in: [control-center/control-center.ts:44](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L44)
+Defined in: [control-center/control-center.ts:44](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L44)
 
 ##### Returns
 
@@ -60,7 +60,7 @@ Defined in: [control-center/control-center.ts:44](https://github.com/niuee/board
 
 > **set** **limitEntireViewPort**(`limit`): `void`
 
-Defined in: [control-center/control-center.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L48)
+Defined in: [control-center/control-center.ts:48](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L48)
 
 ##### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [control-center/control-center.ts:48](https://github.com/niuee/board
 
 > **get** **panController**(): [`PanController`](../interfaces/PanController.md)
 
-Defined in: [control-center/control-center.ts:32](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L32)
+Defined in: [control-center/control-center.ts:32](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L32)
 
 ##### Returns
 
@@ -98,7 +98,7 @@ Defined in: [control-center/control-center.ts:32](https://github.com/niuee/board
 
 > **get** **rotationController**(): [`RotationController`](../interfaces/RotationController.md)
 
-Defined in: [control-center/control-center.ts:40](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L40)
+Defined in: [control-center/control-center.ts:40](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L40)
 
 ##### Returns
 
@@ -112,7 +112,7 @@ Defined in: [control-center/control-center.ts:40](https://github.com/niuee/board
 
 > **get** **zoomController**(): [`ZoomController`](../interfaces/ZoomController.md)
 
-Defined in: [control-center/control-center.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L36)
+Defined in: [control-center/control-center.ts:36](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L36)
 
 ##### Returns
 
@@ -124,7 +124,7 @@ Defined in: [control-center/control-center.ts:36](https://github.com/niuee/board
 
 > **notifyPanInput**(`diff`): `void`
 
-Defined in: [control-center/control-center.ts:52](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L52)
+Defined in: [control-center/control-center.ts:52](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L52)
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: [control-center/control-center.ts:52](https://github.com/niuee/board
 
 > **notifyRotationInput**(`deltaRotation`): `void`
 
-Defined in: [control-center/control-center.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L62)
+Defined in: [control-center/control-center.ts:62](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L62)
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: [control-center/control-center.ts:62](https://github.com/niuee/board
 
 > **notifyZoomInput**(`deltaZoomAmount`, `anchorPoint`): `void`
 
-Defined in: [control-center/control-center.ts:57](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L57)
+Defined in: [control-center/control-center.ts:57](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L57)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ContextCentricCamera
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:19](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L19)
+Defined in: [board-camera/alt-camera/alt-camera.ts:19](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L19)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:19](https://github.com/niuee/
 
 > **new ContextCentricCamera**(`position`, `rotation`, `zoomLevel`, `viewPortWidth`, `viewPortHeight`, `observer`, `boundaries`, `zoomLevelBoundaries`, `rotationBoundaries`): [`ContextCentricCamera`](ContextCentricCamera.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:31](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L31)
+Defined in: [board-camera/alt-camera/alt-camera.ts:31](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L31)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:31](https://github.com/niuee/
 
 > **get** **contextTransform**(): `object`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L49)
+Defined in: [board-camera/alt-camera/alt-camera.ts:49](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L49)
 
 ##### Returns
 
@@ -92,7 +92,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:49](https://github.com/niuee/
 
 > **get** **observer**(): [`CameraObserver`](CameraObserver.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:101](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L101)
+Defined in: [board-camera/alt-camera/alt-camera.ts:101](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L101)
 
 ##### Returns
 
@@ -106,7 +106,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:101](https://github.com/niuee
 
 > **get** **position**(): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:43](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L43)
+Defined in: [board-camera/alt-camera/alt-camera.ts:43](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L43)
 
 ##### Returns
 
@@ -120,7 +120,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:43](https://github.com/niuee/
 
 > **get** **rotation**(): `number`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:109](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L109)
+Defined in: [board-camera/alt-camera/alt-camera.ts:109](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L109)
 
 ##### Returns
 
@@ -134,7 +134,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:109](https://github.com/niuee
 
 > **get** **rotationBoundaries**(): [`RotationLimits`](../type-aliases/RotationLimits.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:143](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L143)
+Defined in: [board-camera/alt-camera/alt-camera.ts:143](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L143)
 
 ##### Returns
 
@@ -148,7 +148,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:143](https://github.com/niuee
 
 > **set** **viewportHeight**(`height`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:135](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L135)
+Defined in: [board-camera/alt-camera/alt-camera.ts:135](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L135)
 
 ##### Parameters
 
@@ -168,7 +168,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:135](https://github.com/niuee
 
 > **get** **viewPortHeight**(): `number`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L127)
+Defined in: [board-camera/alt-camera/alt-camera.ts:127](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L127)
 
 ##### Returns
 
@@ -178,7 +178,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:127](https://github.com/niuee
 
 > **set** **viewPortHeight**(`height`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:184](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L184)
+Defined in: [board-camera/alt-camera/alt-camera.ts:184](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L184)
 
 ##### Parameters
 
@@ -198,7 +198,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:184](https://github.com/niuee
 
 > **set** **viewportWidth**(`width`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:131](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L131)
+Defined in: [board-camera/alt-camera/alt-camera.ts:131](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L131)
 
 ##### Parameters
 
@@ -218,7 +218,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:131](https://github.com/niuee
 
 > **get** **viewPortWidth**(): `number`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L123)
+Defined in: [board-camera/alt-camera/alt-camera.ts:123](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L123)
 
 ##### Returns
 
@@ -228,7 +228,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:123](https://github.com/niuee
 
 > **set** **viewPortWidth**(`width`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:180](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L180)
+Defined in: [board-camera/alt-camera/alt-camera.ts:180](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L180)
 
 ##### Parameters
 
@@ -248,7 +248,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:180](https://github.com/niuee
 
 > **get** **zoomBoundaries**(): [`ZoomLevelLimits`](../type-aliases/ZoomLevelLimits.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:139](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L139)
+Defined in: [board-camera/alt-camera/alt-camera.ts:139](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L139)
 
 ##### Returns
 
@@ -262,7 +262,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:139](https://github.com/niuee
 
 > **get** **zoomLevel**(): `number`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:105](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L105)
+Defined in: [board-camera/alt-camera/alt-camera.ts:105](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L105)
 
 ##### Returns
 
@@ -274,7 +274,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:105](https://github.com/niuee
 
 > **convertFromViewPort2WorldSpace**(`point`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:80](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L80)
+Defined in: [board-camera/alt-camera/alt-camera.ts:80](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L80)
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:80](https://github.com/niuee/
 
 > **getCameraOriginInWindow**(`centerInWindow`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:75](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L75)
+Defined in: [board-camera/alt-camera/alt-camera.ts:75](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L75)
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:75](https://github.com/niuee/
 
 > **getTransform**(`canvasWidth`, `canvasHeight`, `devicePixelRatio`, `alignCoorindate`): `Transform`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:113](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L113)
+Defined in: [board-camera/alt-camera/alt-camera.ts:113](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L113)
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:113](https://github.com/niuee
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:176](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L176)
+Defined in: [board-camera/alt-camera/alt-camera.ts:176](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L176)
 
 #### Type Parameters
 
@@ -366,7 +366,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:176](https://github.com/niuee
 
 > **setHorizontalBoundaries**(`min`, `max`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:166](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L166)
+Defined in: [board-camera/alt-camera/alt-camera.ts:166](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L166)
 
 #### Parameters
 
@@ -388,7 +388,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:166](https://github.com/niuee
 
 > **setMinZoomLevel**(`minZoomLevel`): `boolean`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:151](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L151)
+Defined in: [board-camera/alt-camera/alt-camera.ts:151](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L151)
 
 #### Parameters
 
@@ -406,7 +406,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:151](https://github.com/niuee
 
 > **setPosition**(`destination`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:57](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L57)
+Defined in: [board-camera/alt-camera/alt-camera.ts:57](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L57)
 
 #### Parameters
 
@@ -424,7 +424,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:57](https://github.com/niuee/
 
 > **setPositionByDelta**(`delta`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L66)
+Defined in: [board-camera/alt-camera/alt-camera.ts:66](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L66)
 
 #### Parameters
 
@@ -442,7 +442,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:66](https://github.com/niuee/
 
 > **setPositionWithUserInputDelta**(`delta`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:71](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L71)
+Defined in: [board-camera/alt-camera/alt-camera.ts:71](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L71)
 
 #### Parameters
 
@@ -460,7 +460,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:71](https://github.com/niuee/
 
 > **setRotation**(`rotation`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:93](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L93)
+Defined in: [board-camera/alt-camera/alt-camera.ts:93](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L93)
 
 #### Parameters
 
@@ -478,7 +478,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:93](https://github.com/niuee/
 
 > **setVerticalBoundaries**(`min`, `max`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:171](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L171)
+Defined in: [board-camera/alt-camera/alt-camera.ts:171](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L171)
 
 #### Parameters
 
@@ -500,7 +500,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:171](https://github.com/niuee
 
 > **setZoomLevel**(`zoomLevel`): `void`
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:85](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L85)
+Defined in: [board-camera/alt-camera/alt-camera.ts:85](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L85)
 
 #### Parameters
 
@@ -518,7 +518,7 @@ Defined in: [board-camera/alt-camera/alt-camera.ts:85](https://github.com/niuee/
 
 > **viewPortDelta2WorldDelta**(`delta`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/alt-camera/alt-camera.ts:147](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/alt-camera/alt-camera.ts#L147)
+Defined in: [board-camera/alt-camera/alt-camera.ts:147](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/alt-camera/alt-camera.ts#L147)
 
 #### Parameters
 

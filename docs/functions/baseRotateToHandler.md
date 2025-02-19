@@ -8,7 +8,7 @@
 
 > **baseRotateToHandler**(`targetRotation`, `camera`, `config`): `number`
 
-Defined in: [board-camera/rotation/rotation-handler.ts:32](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation-handler.ts#L32)
+Defined in: [board-camera/rotation/rotation-handler.ts:32](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/rotation/rotation-handler.ts#L32)
 
 ## Parameters
 

@@ -8,7 +8,7 @@
 
 > **minZoomLevelBaseOnHeight**(`boundaries`, `canvasWidth`, `canvasHeight`, `cameraRotation`): `number`
 
-Defined in: [boardify/utils/zoomlevel-adjustment.ts:72](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/utils/zoomlevel-adjustment.ts#L72)
+Defined in: [boardify/utils/zoomlevel-adjustment.ts:72](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/utils/zoomlevel-adjustment.ts#L72)
 
 ## Parameters
 

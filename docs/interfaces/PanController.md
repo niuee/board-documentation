@@ -6,7 +6,7 @@
 
 # Interface: PanController
 
-Defined in: [board-camera/pan/pan.ts:14](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L14)
+Defined in: [board-camera/pan/pan.ts:14](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L14)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [board-camera/pan/pan.ts:14](https://github.com/niuee/board/blob/e6c
 
 > **limitEntireViewPort**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:15](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L15)
+Defined in: [board-camera/pan/pan.ts:15](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L15)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [board-camera/pan/pan.ts:15](https://github.com/niuee/board/blob/e6c
 
 > `optional` **nextHandler**: [`PanHandler`](PanHandler.md)
 
-Defined in: [board-camera/pan/pan.ts:8](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L8)
+Defined in: [board-camera/pan/pan.ts:8](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L8)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [board-camera/pan/pan.ts:8](https://github.com/niuee/board/blob/e6c1
 
 > **restrictRelativeXTranslation**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:18](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L18)
+Defined in: [board-camera/pan/pan.ts:18](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [board-camera/pan/pan.ts:18](https://github.com/niuee/board/blob/e6c
 
 > **restrictRelativeYTranslation**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:19](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L19)
+Defined in: [board-camera/pan/pan.ts:19](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L19)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [board-camera/pan/pan.ts:19](https://github.com/niuee/board/blob/e6c
 
 > **restrictTranslation**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:20](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L20)
+Defined in: [board-camera/pan/pan.ts:20](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L20)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [board-camera/pan/pan.ts:20](https://github.com/niuee/board/blob/e6c
 
 > **restrictXTranslation**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:16](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L16)
+Defined in: [board-camera/pan/pan.ts:16](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L16)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [board-camera/pan/pan.ts:16](https://github.com/niuee/board/blob/e6c
 
 > **restrictYTranslation**: `boolean`
 
-Defined in: [board-camera/pan/pan.ts:17](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L17)
+Defined in: [board-camera/pan/pan.ts:17](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L17)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Defined in: [board-camera/pan/pan.ts:17](https://github.com/niuee/board/blob/e6c
 
 > **chainHandler**(`handler`): [`PanHandler`](PanHandler.md)
 
-Defined in: [board-camera/pan/pan.ts:9](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L9)
+Defined in: [board-camera/pan/pan.ts:9](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L9)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [board-camera/pan/pan.ts:9](https://github.com/niuee/board/blob/e6c1
 
 > **panCameraBy**(`camera`, `delta`): `void`
 
-Defined in: [board-camera/pan/pan.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L11)
+Defined in: [board-camera/pan/pan.ts:11](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L11)
 
 #### Parameters
 
@@ -126,7 +126,7 @@ Defined in: [board-camera/pan/pan.ts:11](https://github.com/niuee/board/blob/e6c
 
 > **panCameraTo**(`camera`, `destination`): `void`
 
-Defined in: [board-camera/pan/pan.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L10)
+Defined in: [board-camera/pan/pan.ts:10](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L10)
 
 #### Parameters
 

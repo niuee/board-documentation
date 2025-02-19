@@ -6,7 +6,7 @@
 
 # Class: PanRig
 
-Defined in: [board-camera/pan/pan.ts:193](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L193)
+Defined in: [board-camera/pan/pan.ts:193](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L193)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [board-camera/pan/pan.ts:193](https://github.com/niuee/board/blob/e6
 
 > **new PanRig**(): [`PanRig`](PanRig.md)
 
-Defined in: [board-camera/pan/pan.ts:249](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L249)
+Defined in: [board-camera/pan/pan.ts:249](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L249)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [board-camera/pan/pan.ts:249](https://github.com/niuee/board/blob/e6
 
 > `protected` `optional` **\_nextHandler**: [`PanHandler`](../interfaces/PanHandler.md)
 
-Defined in: [board-camera/pan/pan.ts:25](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L25)
+Defined in: [board-camera/pan/pan.ts:25](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L25)
 
 #### Inherited from
 
@@ -52,7 +52,7 @@ Defined in: [board-camera/pan/pan.ts:25](https://github.com/niuee/board/blob/e6c
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:245](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L245)
+Defined in: [board-camera/pan/pan.ts:245](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L245)
 
 ##### Returns
 
@@ -62,7 +62,7 @@ Defined in: [board-camera/pan/pan.ts:245](https://github.com/niuee/board/blob/e6
 
 > **set** **limitEntireViewPort**(`limitEntireViewPort`): `void`
 
-Defined in: [board-camera/pan/pan.ts:241](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L241)
+Defined in: [board-camera/pan/pan.ts:241](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L241)
 
 ##### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [board-camera/pan/pan.ts:241](https://github.com/niuee/board/blob/e6
 
 > **get** **nextHandler**(): [`PanHandler`](../interfaces/PanHandler.md)
 
-Defined in: [board-camera/pan/pan.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L36)
+Defined in: [board-camera/pan/pan.ts:36](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L36)
 
 ##### Returns
 
@@ -96,7 +96,7 @@ Defined in: [board-camera/pan/pan.ts:36](https://github.com/niuee/board/blob/e6c
 
 > **set** **nextHandler**(`handler`): `void`
 
-Defined in: [board-camera/pan/pan.ts:32](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L32)
+Defined in: [board-camera/pan/pan.ts:32](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L32)
 
 ##### Parameters
 
@@ -124,7 +124,7 @@ Defined in: [board-camera/pan/pan.ts:32](https://github.com/niuee/board/blob/e6c
 
 > **get** **restrictRelativeXTranslation**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:233](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L233)
+Defined in: [board-camera/pan/pan.ts:233](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L233)
 
 ##### Returns
 
@@ -134,7 +134,7 @@ Defined in: [board-camera/pan/pan.ts:233](https://github.com/niuee/board/blob/e6
 
 > **set** **restrictRelativeXTranslation**(`restrictRelativeXTranslation`): `void`
 
-Defined in: [board-camera/pan/pan.ts:199](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L199)
+Defined in: [board-camera/pan/pan.ts:199](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L199)
 
 ##### Parameters
 
@@ -158,7 +158,7 @@ Defined in: [board-camera/pan/pan.ts:199](https://github.com/niuee/board/blob/e6
 
 > **get** **restrictRelativeYTranslation**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:237](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L237)
+Defined in: [board-camera/pan/pan.ts:237](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L237)
 
 ##### Returns
 
@@ -168,7 +168,7 @@ Defined in: [board-camera/pan/pan.ts:237](https://github.com/niuee/board/blob/e6
 
 > **set** **restrictRelativeYTranslation**(`restrictRelativeYTranslation`): `void`
 
-Defined in: [board-camera/pan/pan.ts:203](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L203)
+Defined in: [board-camera/pan/pan.ts:203](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L203)
 
 ##### Parameters
 
@@ -192,7 +192,7 @@ Defined in: [board-camera/pan/pan.ts:203](https://github.com/niuee/board/blob/e6
 
 > **get** **restrictTranslation**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:221](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L221)
+Defined in: [board-camera/pan/pan.ts:221](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L221)
 
 ##### Returns
 
@@ -202,7 +202,7 @@ Defined in: [board-camera/pan/pan.ts:221](https://github.com/niuee/board/blob/e6
 
 > **set** **restrictTranslation**(`restrictTranslation`): `void`
 
-Defined in: [board-camera/pan/pan.ts:215](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L215)
+Defined in: [board-camera/pan/pan.ts:215](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L215)
 
 ##### Parameters
 
@@ -226,7 +226,7 @@ Defined in: [board-camera/pan/pan.ts:215](https://github.com/niuee/board/blob/e6
 
 > **get** **restrictXTranslation**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:225](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L225)
+Defined in: [board-camera/pan/pan.ts:225](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L225)
 
 ##### Returns
 
@@ -236,7 +236,7 @@ Defined in: [board-camera/pan/pan.ts:225](https://github.com/niuee/board/blob/e6
 
 > **set** **restrictXTranslation**(`restrictXTranslation`): `void`
 
-Defined in: [board-camera/pan/pan.ts:207](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L207)
+Defined in: [board-camera/pan/pan.ts:207](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L207)
 
 ##### Parameters
 
@@ -260,7 +260,7 @@ Defined in: [board-camera/pan/pan.ts:207](https://github.com/niuee/board/blob/e6
 
 > **get** **restrictYTranslation**(): `boolean`
 
-Defined in: [board-camera/pan/pan.ts:229](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L229)
+Defined in: [board-camera/pan/pan.ts:229](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L229)
 
 ##### Returns
 
@@ -270,7 +270,7 @@ Defined in: [board-camera/pan/pan.ts:229](https://github.com/niuee/board/blob/e6
 
 > **set** **restrictYTranslation**(`restrictYTranslation`): `void`
 
-Defined in: [board-camera/pan/pan.ts:211](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L211)
+Defined in: [board-camera/pan/pan.ts:211](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L211)
 
 ##### Parameters
 
@@ -292,7 +292,7 @@ Defined in: [board-camera/pan/pan.ts:211](https://github.com/niuee/board/blob/e6
 
 > **chainHandler**(`handler`): [`PanHandler`](../interfaces/PanHandler.md)
 
-Defined in: [board-camera/pan/pan.ts:40](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L40)
+Defined in: [board-camera/pan/pan.ts:40](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L40)
 
 #### Parameters
 
@@ -318,7 +318,7 @@ Defined in: [board-camera/pan/pan.ts:40](https://github.com/niuee/board/blob/e6c
 
 > **panCameraBy**(`camera`, `delta`): `void`
 
-Defined in: [board-camera/pan/pan.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L51)
+Defined in: [board-camera/pan/pan.ts:51](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L51)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: [board-camera/pan/pan.ts:51](https://github.com/niuee/board/blob/e6c
 
 > **panCameraTo**(`camera`, `destination`): `void`
 
-Defined in: [board-camera/pan/pan.ts:45](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/pan/pan.ts#L45)
+Defined in: [board-camera/pan/pan.ts:45](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/pan/pan.ts#L45)
 
 #### Parameters
 

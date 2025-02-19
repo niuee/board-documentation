@@ -6,7 +6,7 @@
 
 # Class: Observable\<T\>
 
-Defined in: [util/observable.ts:7](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/util/observable.ts#L7)
+Defined in: [util/observable.ts:7](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/util/observable.ts#L7)
 
 ## Type Parameters
 
@@ -28,7 +28,7 @@ Defined in: [util/observable.ts:7](https://github.com/niuee/board/blob/e6c1edccc
 
 > **notify**(...`data`): `void`
 
-Defined in: [util/observable.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/util/observable.ts#L36)
+Defined in: [util/observable.ts:36](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/util/observable.ts#L36)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [util/observable.ts:36](https://github.com/niuee/board/blob/e6c1edcc
 
 > **subscribe**(`observer`, `options`?): () => `void`
 
-Defined in: [util/observable.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/util/observable.ts#L10)
+Defined in: [util/observable.ts:10](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/util/observable.ts#L10)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: Board
 
-Defined in: [boardify/board.ts:45](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L45)
+Defined in: [boardify/board.ts:45](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L45)
 
 ## Translation Block
 
@@ -30,7 +30,7 @@ function step(timestamp: number){
 }
 ```
 
-## Translation Block
+## Description
 
 Alternatively you can import the board class as from a subdirectory; this shaves the bundle size a bit but not a lot though. As the board is the overall entry point for the library.
 
@@ -44,7 +44,7 @@ import {Board} from "@niuee/board/boardify";
 
 > **new Board**(`canvas`, `eventTarget`): [`Board`](Board.md)
 
-Defined in: [boardify/board.ts:64](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L64)
+Defined in: [boardify/board.ts:64](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L64)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [boardify/board.ts:64](https://github.com/niuee/board/blob/e6c1edccc
 
 > **get** **alignCoordinateSystem**(): `boolean`
 
-Defined in: [boardify/board.ts:200](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L200)
+Defined in: [boardify/board.ts:201](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L201)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: [boardify/board.ts:200](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **alignCoordinateSystem**(`align`): `void`
 
-Defined in: [boardify/board.ts:194](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L194)
+Defined in: [boardify/board.ts:195](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L195)
 
 ##### Translation Block
 
@@ -102,7 +102,7 @@ This is an attribute that determines if the coordinate system should be aligned 
 
 > **get** **camera**(): [`ObservableBoardCamera`](../interfaces/ObservableBoardCamera.md)
 
-Defined in: [boardify/board.ts:277](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L277)
+Defined in: [boardify/board.ts:278](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L278)
 
 ##### Translation Block
 
@@ -117,7 +117,7 @@ The boundaries are based on camera. Meaning you can have camera with different b
 
 > **set** **camera**(`camera`): `void`
 
-Defined in: [boardify/board.ts:281](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L281)
+Defined in: [boardify/board.ts:282](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L282)
 
 ##### Parameters
 
@@ -137,7 +137,7 @@ Defined in: [boardify/board.ts:281](https://github.com/niuee/board/blob/e6c1edcc
 
 > **get** **context**(): [`CanvasRenderingContext2D`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D)
 
-Defined in: [boardify/board.ts:223](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L223)
+Defined in: [boardify/board.ts:224](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L224)
 
 ##### Translation Block
 
@@ -155,7 +155,7 @@ The context used to draw stuff on the canvas.
 
 > **get** **controlCenter**(): [`InputControlCenter`](../interfaces/InputControlCenter.md)
 
-Defined in: [boardify/board.ts:287](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L287)
+Defined in: [boardify/board.ts:288](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L288)
 
 ##### Returns
 
@@ -169,7 +169,7 @@ Defined in: [boardify/board.ts:287](https://github.com/niuee/board/blob/e6c1edcc
 
 > **get** **fullScreen**(): `boolean`
 
-Defined in: [boardify/board.ts:208](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L208)
+Defined in: [boardify/board.ts:209](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L209)
 
 ##### Translation Block
 
@@ -184,7 +184,7 @@ If set to true the width and height of the board will resize with the window.
 
 > **set** **fullScreen**(`value`): `void`
 
-Defined in: [boardify/board.ts:212](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L212)
+Defined in: [boardify/board.ts:213](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L213)
 
 ##### Parameters
 
@@ -204,7 +204,7 @@ Defined in: [boardify/board.ts:212](https://github.com/niuee/board/blob/e6c1edcc
 
 > **get** **height**(): `number`
 
-Defined in: [boardify/board.ts:187](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L187)
+Defined in: [boardify/board.ts:188](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L188)
 
 ##### Returns
 
@@ -214,7 +214,7 @@ Defined in: [boardify/board.ts:187](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **height**(`height`): `void`
 
-Defined in: [boardify/board.ts:175](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L175)
+Defined in: [boardify/board.ts:176](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L176)
 
 ##### Translation Block
 
@@ -239,7 +239,7 @@ If the limitEntireViewPort is set to true, the min zoom level is updated based o
 
 > **get** **kmtStrategy**(): [`BoardKMTStrategy`](../interfaces/BoardKMTStrategy.md)
 
-Defined in: [boardify/board.ts:255](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L255)
+Defined in: [boardify/board.ts:256](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L256)
 
 ##### Returns
 
@@ -249,7 +249,7 @@ Defined in: [boardify/board.ts:255](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **kmtStrategy**(`strategy`): `void`
 
-Defined in: [boardify/board.ts:249](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L249)
+Defined in: [boardify/board.ts:250](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L250)
 
 ##### Translation Block
 
@@ -274,7 +274,7 @@ You can implement your own strategy by implementing the BoardKMTStrategy interfa
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-Defined in: [boardify/board.ts:241](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L241)
+Defined in: [boardify/board.ts:242](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L242)
 
 ##### Returns
 
@@ -284,7 +284,7 @@ Defined in: [boardify/board.ts:241](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **limitEntireViewPort**(`value`): `void`
 
-Defined in: [boardify/board.ts:231](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L231)
+Defined in: [boardify/board.ts:232](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L232)
 
 ##### Translation Block
 
@@ -309,7 +309,7 @@ If set to false, only the center of the camera is bounded by the boundaries.
 
 > **get** **maxHalfTransHeight**(): `number`
 
-Defined in: [boardify/board.ts:351](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L351)
+Defined in: [boardify/board.ts:352](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L352)
 
 ##### Translation Block
 
@@ -327,7 +327,7 @@ The max translation height of the camera. This is the maximum distance the camer
 
 > **get** **maxHalfTransWidth**(): `number`
 
-Defined in: [boardify/board.ts:358](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L358)
+Defined in: [boardify/board.ts:359](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L359)
 
 ##### Translation Block
 
@@ -345,7 +345,7 @@ The max translation width of the camera. This is the maximum distance the camera
 
 > **get** **selectionBox**(): [`SelectionBox`](SelectionBox.md)
 
-Defined in: [boardify/board.ts:410](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L410)
+Defined in: [boardify/board.ts:411](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L411)
 
 ##### Returns
 
@@ -359,7 +359,7 @@ Defined in: [boardify/board.ts:410](https://github.com/niuee/board/blob/e6c1edcc
 
 > **get** **touchStrategy**(): [`BoardTouchStrategy`](../interfaces/BoardTouchStrategy.md)
 
-Defined in: [boardify/board.ts:269](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L269)
+Defined in: [boardify/board.ts:270](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L270)
 
 ##### Returns
 
@@ -369,7 +369,7 @@ Defined in: [boardify/board.ts:269](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **touchStrategy**(`strategy`): `void`
 
-Defined in: [boardify/board.ts:263](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L263)
+Defined in: [boardify/board.ts:264](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L264)
 
 ##### Translation Block
 
@@ -394,7 +394,7 @@ You can implement your own strategy by implementing the BoardTouchStrategy inter
 
 > **get** **width**(): `number`
 
-Defined in: [boardify/board.ts:167](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L167)
+Defined in: [boardify/board.ts:168](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L168)
 
 ##### Returns
 
@@ -404,12 +404,12 @@ Defined in: [boardify/board.ts:167](https://github.com/niuee/board/blob/e6c1edcc
 
 > **set** **width**(`width`): `void`
 
-Defined in: [boardify/board.ts:155](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L155)
+Defined in: [boardify/board.ts:156](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L156)
 
-##### Translation Block
+##### Description
 
 This is in sync with the canvas width and the camera view port width. This is not the board's width.
-If the limitEntireViewPort is set to true, the min zoom level is updated based on the width of the canvas.
+If the `limitEntireViewPort` is set to true, the min zoom level is updated based on the width of the canvas.
 
 ##### Parameters
 
@@ -427,7 +427,7 @@ If the limitEntireViewPort is set to true, the min zoom level is updated based o
 
 > **convertWindowPoint2WorldCoord**(`clickPointInWindow`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [boardify/board.ts:317](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L317)
+Defined in: [boardify/board.ts:318](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L318)
 
 #### Parameters
 
@@ -453,7 +453,7 @@ Converts a point from window coordinates to world coordinates.
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [boardify/board.ts:333](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L333)
+Defined in: [boardify/board.ts:334](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L334)
 
 #### Type Parameters
 
@@ -489,7 +489,7 @@ Add an camera movement event listener. The events are "pan", "zoom", and "rotate
 
 > **onInput**\<`K`\>(`eventName`, `callback`): [`UnsubscribeToUserRawInput`](../type-aliases/UnsubscribeToUserRawInput.md)
 
-Defined in: [boardify/board.ts:344](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L344)
+Defined in: [boardify/board.ts:345](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L345)
 
 #### Type Parameters
 
@@ -520,7 +520,7 @@ Input event does not necesarily mean that the camera will move. The input event 
 
 > **setMaxTransWidthAlignedMin**(`value`): `void`
 
-Defined in: [boardify/board.ts:393](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L393)
+Defined in: [boardify/board.ts:394](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L394)
 
 #### Parameters
 
@@ -538,7 +538,7 @@ Defined in: [boardify/board.ts:393](https://github.com/niuee/board/blob/e6c1edcc
 
 > **step**(`timestamp`): `void`
 
-Defined in: [boardify/board.ts:295](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L295)
+Defined in: [boardify/board.ts:296](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L296)
 
 #### Parameters
 
@@ -560,7 +560,7 @@ This is the step function that is called in the animation frame. This function i
 
 > **setup**(): `void`
 
-Defined in: [boardify/board.ts:129](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L129)
+Defined in: [boardify/board.ts:129](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L129)
 
 #### Returns
 
@@ -576,7 +576,7 @@ This function is used to set up the board. It adds all the event listeners and s
 
 > **tearDown**(): `void`
 
-Defined in: [boardify/board.ts:139](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board.ts#L139)
+Defined in: [boardify/board.ts:139](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/boardify/board.ts#L139)
 
 #### Returns
 

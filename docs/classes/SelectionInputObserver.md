@@ -6,7 +6,7 @@
 
 # Class: SelectionInputObserver
 
-Defined in: [selection-box/selection-input-observer.ts:5](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L5)
+Defined in: [selection-box/selection-input-observer.ts:5](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [selection-box/selection-input-observer.ts:5](https://github.com/niu
 
 > **new SelectionInputObserver**(`camera`, `selectionBox`): [`SelectionInputObserver`](SelectionInputObserver.md)
 
-Defined in: [selection-box/selection-input-observer.ts:14](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L14)
+Defined in: [selection-box/selection-input-observer.ts:14](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L14)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [selection-box/selection-input-observer.ts:14](https://github.com/ni
 
 > **get** **selectionBox**(): [`SelectionBox`](SelectionBox.md)
 
-Defined in: [selection-box/selection-input-observer.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L10)
+Defined in: [selection-box/selection-input-observer.ts:10](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L10)
 
 ##### Returns
 
@@ -50,7 +50,7 @@ Defined in: [selection-box/selection-input-observer.ts:10](https://github.com/ni
 
 > **notifySelectionEndPoint**(`point`): `void`
 
-Defined in: [selection-box/selection-input-observer.ts:24](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L24)
+Defined in: [selection-box/selection-input-observer.ts:24](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L24)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [selection-box/selection-input-observer.ts:24](https://github.com/ni
 
 > **notifySelectionStartPoint**(`point`): `void`
 
-Defined in: [selection-box/selection-input-observer.ts:19](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L19)
+Defined in: [selection-box/selection-input-observer.ts:19](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L19)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [selection-box/selection-input-observer.ts:19](https://github.com/ni
 
 > **toggleSelectionBox**(`visible`): `void`
 
-Defined in: [selection-box/selection-input-observer.ts:29](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/selection-box/selection-input-observer.ts#L29)
+Defined in: [selection-box/selection-input-observer.ts:29](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/selection-box/selection-input-observer.ts#L29)
 
 #### Parameters
 

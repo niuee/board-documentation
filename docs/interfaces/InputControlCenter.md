@@ -6,7 +6,7 @@
 
 # Interface: InputControlCenter
 
-Defined in: [control-center/control-center.ts:8](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L8)
+Defined in: [control-center/control-center.ts:8](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L8)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [control-center/control-center.ts:8](https://github.com/niuee/board/
 
 > **limitEntireViewPort**: `boolean`
 
-Defined in: [control-center/control-center.ts:12](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L12)
+Defined in: [control-center/control-center.ts:12](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L12)
 
 ## Methods
 
@@ -22,7 +22,7 @@ Defined in: [control-center/control-center.ts:12](https://github.com/niuee/board
 
 > **notifyPanInput**(`diff`): `void`
 
-Defined in: [control-center/control-center.ts:13](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L13)
+Defined in: [control-center/control-center.ts:13](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L13)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [control-center/control-center.ts:13](https://github.com/niuee/board
 
 > **notifyRotationInput**(`deltaRotation`): `void`
 
-Defined in: [control-center/control-center.ts:15](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L15)
+Defined in: [control-center/control-center.ts:15](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L15)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [control-center/control-center.ts:15](https://github.com/niuee/board
 
 > **notifyZoomInput**(`deltaZoomAmount`, `anchorPoint`): `void`
 
-Defined in: [control-center/control-center.ts:14](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/control-center.ts#L14)
+Defined in: [control-center/control-center.ts:14](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/control-center/control-center.ts#L14)
 
 #### Parameters
 

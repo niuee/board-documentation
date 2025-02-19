@@ -8,7 +8,7 @@
 
 > **createHandlerChain**\<`T`, `Args`\>(...`handlers`): [`Handler`](../type-aliases/Handler.md)\<`T`, `Args`\>
 
-Defined in: [board-camera/utils/handler-pipeline.ts:12](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/utils/handler-pipeline.ts#L12)
+Defined in: [board-camera/utils/handler-pipeline.ts:12](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/board-camera/utils/handler-pipeline.ts#L12)
 
 Creates a handler chain from an array of handlers
 

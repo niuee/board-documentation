@@ -8,7 +8,7 @@
 
 > **Guard**\<`Context`, `K`\>: `{ [P in K]: GuardEvaluation<Context> }`
 
-Defined in: [being/interfaces.ts:31](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L31)
+Defined in: [being/interfaces.ts:31](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L31)
 
 ## Type Parameters
 

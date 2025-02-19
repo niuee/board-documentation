@@ -8,7 +8,7 @@
 
 > **StateChangeCallback**\<`EventPayloadMapping`, `Context`, `States`\>: (`currentState`, `nextState`) => `void`
 
-Defined in: [being/interfaces.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L11)
+Defined in: [being/interfaces.ts:11](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L11)
 
 ## Type Parameters
 

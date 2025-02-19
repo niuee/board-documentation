@@ -6,7 +6,7 @@
 
 # Class: SelectingState
 
-Defined in: [input-state-machine/input-state-machine.ts:183](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L183)
+Defined in: [input-state-machine/input-state-machine.ts:183](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/input-state-machine/input-state-machine.ts#L183)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [input-state-machine/input-state-machine.ts:183](https://github.com/
 
 > **new SelectingState**(): [`SelectingState`](SelectingState.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:186](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L186)
+Defined in: [input-state-machine/input-state-machine.ts:186](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/input-state-machine/input-state-machine.ts#L186)
 
 #### Returns
 
@@ -34,7 +34,7 @@ Defined in: [input-state-machine/input-state-machine.ts:186](https://github.com/
 
 > `protected` **\_eventGuards**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<[`BoardEventMapping`](../type-aliases/BoardEventMapping.md), [`BoardStates`](../type-aliases/BoardStates.md), [`BoardContext`](../type-aliases/BoardContext.md), [`Guard`](../type-aliases/Guard.md)\<[`BoardContext`](../type-aliases/BoardContext.md), `string`\>\>\> = `{}`
 
-Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L109)
+Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L109)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/e6c1ed
 
 > `protected` **\_guards**: [`Guard`](../type-aliases/Guard.md)\<[`BoardContext`](../type-aliases/BoardContext.md)\> = `{}`
 
-Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L108)
+Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L108)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/e6c1ed
 
 > **leftPointerMoveHandler**: `any`
 
-Defined in: [input-state-machine/input-state-machine.ts:190](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L190)
+Defined in: [input-state-machine/input-state-machine.ts:190](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/input-state-machine/input-state-machine.ts#L190)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [input-state-machine/input-state-machine.ts:190](https://github.com/
 
 > **leftPointerUpHandler**: `any`
 
-Defined in: [input-state-machine/input-state-machine.ts:196](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L196)
+Defined in: [input-state-machine/input-state-machine.ts:196](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/input-state-machine/input-state-machine.ts#L196)
 
 ## Accessors
 
@@ -76,7 +76,7 @@ Defined in: [input-state-machine/input-state-machine.ts:196](https://github.com/
 
 > **get** **eventGuards**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\>
 
-Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L115)
+Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L115)
 
 ##### Returns
 
@@ -94,7 +94,7 @@ Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1ed
 
 > **get** **eventReactions**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventAction`](../type-aliases/EventAction.md)\<[`BoardEventMapping`](../type-aliases/BoardEventMapping.md), [`BoardContext`](../type-aliases/BoardContext.md), [`BoardStates`](../type-aliases/BoardStates.md)\>\>
 
-Defined in: [input-state-machine/input-state-machine.ts:212](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L212)
+Defined in: [input-state-machine/input-state-machine.ts:212](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/input-state-machine/input-state-machine.ts#L212)
 
 ##### Returns
 
@@ -112,7 +112,7 @@ Defined in: [input-state-machine/input-state-machine.ts:212](https://github.com/
 
 > **get** **guards**(): [`Guard`](../type-aliases/Guard.md)\<`Context`\>
 
-Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L111)
+Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L111)
 
 ##### Returns
 
@@ -128,7 +128,7 @@ Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1ed
 
 > **handles**\<`K`\>(`stateMachine`, `event`, `payload`, `context`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L127)
+Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L127)
 
 #### Type Parameters
 
@@ -166,7 +166,7 @@ Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1ed
 
 > **uponEnter**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L119)
+Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L119)
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1ed
 
 > **uponLeave**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L123)
+Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/a0a1179721d4f4b943b6a9bc156753ac9737e502/src/being/interfaces.ts#L123)
 
 #### Parameters
 
