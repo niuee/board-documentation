@@ -6,7 +6,7 @@
 
 # Class: SelectionBox
 
-Defined in: [drawing-engine/selection-box.ts:4](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L4)
+Defined in: [drawing-engine/selection-box.ts:4](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L4)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [drawing-engine/selection-box.ts:4](https://github.com/niuee/board/b
 
 > **new SelectionBox**(`context`): [`SelectionBox`](SelectionBox.md)
 
-Defined in: [drawing-engine/selection-box.ts:11](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L11)
+Defined in: [drawing-engine/selection-box.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L11)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [drawing-engine/selection-box.ts:11](https://github.com/niuee/board/
 
 > **get** **endPoint**(): [`Point`](../type-aliases/Point.md)
 
-Defined in: [drawing-engine/selection-box.ts:31](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L31)
+Defined in: [drawing-engine/selection-box.ts:31](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L31)
 
 ##### Returns
 
@@ -48,7 +48,7 @@ Defined in: [drawing-engine/selection-box.ts:31](https://github.com/niuee/board/
 
 > **set** **endPoint**(`point`): `void`
 
-Defined in: [drawing-engine/selection-box.ts:27](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L27)
+Defined in: [drawing-engine/selection-box.ts:27](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L27)
 
 ##### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [drawing-engine/selection-box.ts:27](https://github.com/niuee/board/
 
 > **get** **startPoint**(): [`Point`](../type-aliases/Point.md)
 
-Defined in: [drawing-engine/selection-box.ts:23](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L23)
+Defined in: [drawing-engine/selection-box.ts:23](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L23)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: [drawing-engine/selection-box.ts:23](https://github.com/niuee/board/
 
 > **set** **startPoint**(`point`): `void`
 
-Defined in: [drawing-engine/selection-box.ts:18](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L18)
+Defined in: [drawing-engine/selection-box.ts:18](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L18)
 
 ##### Parameters
 
@@ -96,7 +96,7 @@ Defined in: [drawing-engine/selection-box.ts:18](https://github.com/niuee/board/
 
 > **clearSelection**(): `void`
 
-Defined in: [drawing-engine/selection-box.ts:64](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L64)
+Defined in: [drawing-engine/selection-box.ts:64](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L64)
 
 #### Returns
 
@@ -108,7 +108,7 @@ Defined in: [drawing-engine/selection-box.ts:64](https://github.com/niuee/board/
 
 > **draw**(`deltaTime`): `void`
 
-Defined in: [drawing-engine/selection-box.ts:35](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L35)
+Defined in: [drawing-engine/selection-box.ts:35](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L35)
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: [drawing-engine/selection-box.ts:35](https://github.com/niuee/board/
 
 > **drawWithContext**(`context`, `deltaTime`): `void`
 
-Defined in: [drawing-engine/selection-box.ts:47](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L47)
+Defined in: [drawing-engine/selection-box.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L47)
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: [drawing-engine/selection-box.ts:47](https://github.com/niuee/board/
 
 > **startSelection**(): `void`
 
-Defined in: [drawing-engine/selection-box.ts:60](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/drawing-engine/selection-box.ts#L60)
+Defined in: [drawing-engine/selection-box.ts:60](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/selection-box.ts#L60)
 
 #### Returns
 

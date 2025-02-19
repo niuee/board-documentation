@@ -6,7 +6,7 @@
 
 # Interface: StateMachine\<EventPayloadMapping, Context, States\>
 
-Defined in: [being/interfaces.ts:1](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L1)
+Defined in: [being/interfaces.ts:1](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L1)
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: [being/interfaces.ts:1](https://github.com/niuee/board/blob/cc09a87e
 
 > **possibleStates**: `States`[]
 
-Defined in: [being/interfaces.ts:7](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L7)
+Defined in: [being/interfaces.ts:7](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L7)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [being/interfaces.ts:7](https://github.com/niuee/board/blob/cc09a87e
 
 > **states**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:5](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L5)
+Defined in: [being/interfaces.ts:5](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L5)
 
 ## Methods
 
@@ -38,7 +38,7 @@ Defined in: [being/interfaces.ts:5](https://github.com/niuee/board/blob/cc09a87e
 
 > **happens**\<`K`\>(`event`, `payload`, `context`): `States`
 
-Defined in: [being/interfaces.ts:3](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L3)
+Defined in: [being/interfaces.ts:3](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L3)
 
 #### Type Parameters
 
@@ -68,7 +68,7 @@ Defined in: [being/interfaces.ts:3](https://github.com/niuee/board/blob/cc09a87e
 
 > **onHappens**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:8](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L8)
+Defined in: [being/interfaces.ts:8](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L8)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [being/interfaces.ts:8](https://github.com/niuee/board/blob/cc09a87e
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:6](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L6)
+Defined in: [being/interfaces.ts:6](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L6)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [being/interfaces.ts:6](https://github.com/niuee/board/blob/cc09a87e
 
 > **setContext**(`context`): `void`
 
-Defined in: [being/interfaces.ts:4](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L4)
+Defined in: [being/interfaces.ts:4](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L4)
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [being/interfaces.ts:4](https://github.com/niuee/board/blob/cc09a87e
 
 > **switchTo**(`state`): `void`
 
-Defined in: [being/interfaces.ts:2](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L2)
+Defined in: [being/interfaces.ts:2](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L2)
 
 #### Parameters
 

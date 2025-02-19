@@ -6,7 +6,7 @@
 
 # Class: CameraObserver
 
-Defined in: [camera-observer/camera-observer.ts:56](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L56)
+Defined in: [camera-observer/camera-observer.ts:56](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L56)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [camera-observer/camera-observer.ts:56](https://github.com/niuee/boa
 
 > **new CameraObserver**(): [`CameraObserver`](CameraObserver.md)
 
-Defined in: [camera-observer/camera-observer.ts:63](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L63)
+Defined in: [camera-observer/camera-observer.ts:63](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L63)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [camera-observer/camera-observer.ts:63](https://github.com/niuee/boa
 
 > **clearCallbacks**(): `void`
 
-Defined in: [camera-observer/camera-observer.ts:117](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L117)
+Defined in: [camera-observer/camera-observer.ts:117](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L117)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [camera-observer/camera-observer.ts:117](https://github.com/niuee/bo
 
 > **notifyPositionChange**(`delta`, `cameraState`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [camera-observer/camera-observer.ts:66](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L66)
+Defined in: [camera-observer/camera-observer.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L66)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [camera-observer/camera-observer.ts:66](https://github.com/niuee/boa
 
 > **notifyRotationChange**(`deltaRotation`, `cameraState`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [camera-observer/camera-observer.ts:86](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L86)
+Defined in: [camera-observer/camera-observer.ts:86](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L86)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [camera-observer/camera-observer.ts:86](https://github.com/niuee/boa
 
 > **notifyZoomChange**(`deltaZoomAmount`, `cameraState`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [camera-observer/camera-observer.ts:76](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L76)
+Defined in: [camera-observer/camera-observer.ts:76](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L76)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [camera-observer/camera-observer.ts:76](https://github.com/niuee/boa
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [camera-observer/camera-observer.ts:96](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L96)
+Defined in: [camera-observer/camera-observer.ts:96](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L96)
 
 #### Type Parameters
 
@@ -130,7 +130,7 @@ Defined in: [camera-observer/camera-observer.ts:96](https://github.com/niuee/boa
 
 > **onAllUpdate**(`callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [camera-observer/camera-observer.ts:112](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L112)
+Defined in: [camera-observer/camera-observer.ts:112](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L112)
 
 #### Parameters
 

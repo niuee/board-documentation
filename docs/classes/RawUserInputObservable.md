@@ -6,7 +6,7 @@
 
 # Class: RawUserInputObservable
 
-Defined in: [input-observer/input-observer.ts:118](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L118)
+Defined in: [input-observer/input-observer.ts:118](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L118)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [input-observer/input-observer.ts:118](https://github.com/niuee/boar
 
 > **new RawUserInputObservable**(`inputControlCenter`): [`RawUserInputObservable`](RawUserInputObservable.md)
 
-Defined in: [input-observer/input-observer.ts:126](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L126)
+Defined in: [input-observer/input-observer.ts:126](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L126)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [input-observer/input-observer.ts:126](https://github.com/niuee/boar
 
 > **get** **controlCenter**(): [`InputControlCenter`](../interfaces/InputControlCenter.md)
 
-Defined in: [input-observer/input-observer.ts:167](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L167)
+Defined in: [input-observer/input-observer.ts:167](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L167)
 
 ##### Returns
 
@@ -46,7 +46,7 @@ Defined in: [input-observer/input-observer.ts:167](https://github.com/niuee/boar
 
 > **notifyPan**(`diff`): `void`
 
-Defined in: [input-observer/input-observer.ts:134](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L134)
+Defined in: [input-observer/input-observer.ts:134](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L134)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [input-observer/input-observer.ts:134](https://github.com/niuee/boar
 
 > **notifyRotate**(`deltaRotation`): `void`
 
-Defined in: [input-observer/input-observer.ts:146](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L146)
+Defined in: [input-observer/input-observer.ts:146](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L146)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [input-observer/input-observer.ts:146](https://github.com/niuee/boar
 
 > **notifyZoom**(`deltaZoomAmount`, `anchorPoint`): `void`
 
-Defined in: [input-observer/input-observer.ts:140](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L140)
+Defined in: [input-observer/input-observer.ts:140](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L140)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [input-observer/input-observer.ts:140](https://github.com/niuee/boar
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnsubscribeToUserRawInput`](../type-aliases/UnsubscribeToUserRawInput.md)
 
-Defined in: [input-observer/input-observer.ts:152](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L152)
+Defined in: [input-observer/input-observer.ts:152](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L152)
 
 #### Type Parameters
 

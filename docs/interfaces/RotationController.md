@@ -6,7 +6,7 @@
 
 # Interface: RotationController
 
-Defined in: [board-camera/rotation/rotation.ts:11](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L11)
+Defined in: [board-camera/rotation/rotation.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L11)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [board-camera/rotation/rotation.ts:11](https://github.com/niuee/boar
 
 > `optional` **nextHandler**: [`RotationHandler`](RotationHandler.md)
 
-Defined in: [board-camera/rotation/rotation.ts:5](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L5)
+Defined in: [board-camera/rotation/rotation.ts:5](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L5)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [board-camera/rotation/rotation.ts:5](https://github.com/niuee/board
 
 > **restrictRotation**: `boolean`
 
-Defined in: [board-camera/rotation/rotation.ts:12](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L12)
+Defined in: [board-camera/rotation/rotation.ts:12](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L12)
 
 ## Methods
 
@@ -38,7 +38,7 @@ Defined in: [board-camera/rotation/rotation.ts:12](https://github.com/niuee/boar
 
 > **chainHandler**(`handler`): [`RotationHandler`](RotationHandler.md)
 
-Defined in: [board-camera/rotation/rotation.ts:6](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L6)
+Defined in: [board-camera/rotation/rotation.ts:6](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L6)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [board-camera/rotation/rotation.ts:6](https://github.com/niuee/board
 
 > **rotateCameraBy**(`camera`, `delta`): `void`
 
-Defined in: [board-camera/rotation/rotation.ts:8](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L8)
+Defined in: [board-camera/rotation/rotation.ts:8](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L8)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [board-camera/rotation/rotation.ts:8](https://github.com/niuee/board
 
 > **rotateCameraTo**(`camera`, `targetRotation`): `void`
 
-Defined in: [board-camera/rotation/rotation.ts:7](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation.ts#L7)
+Defined in: [board-camera/rotation/rotation.ts:7](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation.ts#L7)
 
 #### Parameters
 

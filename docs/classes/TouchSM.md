@@ -6,7 +6,7 @@
 
 # Class: TouchSM
 
-Defined in: [input-state-machine/touch-state-machine.ts:193](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/touch-state-machine.ts#L193)
+Defined in: [input-state-machine/touch-state-machine.ts:193](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L193)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:193](https://github.com/
 
 > **new TouchSM**(`context`): [`TouchSM`](TouchSM.md)
 
-Defined in: [input-state-machine/touch-state-machine.ts:195](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/touch-state-machine.ts#L195)
+Defined in: [input-state-machine/touch-state-machine.ts:195](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L195)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:195](https://github.com/
 
 > `protected` **\_context**: [`TouchContext`](../interfaces/TouchContext.md)
 
-Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L48)
+Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L48)
 
 #### Inherited from
 
@@ -52,7 +52,7 @@ Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_currentState**: [`TouchStates`](../type-aliases/TouchStates.md)
 
-Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L46)
+Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L46)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_happensCallbacks**: (`event`, `payload`, `context`) => `void`[]
 
-Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L51)
+Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L51)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ keyof [`TouchEventMapping`](../type-aliases/TouchEventMapping.md)
 
 > `protected` **\_stateChangeCallbacks**: [`StateChangeCallback`](../type-aliases/StateChangeCallback.md)\<[`TouchEventMapping`](../type-aliases/TouchEventMapping.md), [`TouchContext`](../interfaces/TouchContext.md), [`TouchStates`](../type-aliases/TouchStates.md)\>[]
 
-Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L50)
+Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L50)
 
 #### Inherited from
 
@@ -106,7 +106,7 @@ Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_states**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<[`TouchStates`](../type-aliases/TouchStates.md), [`State`](../interfaces/State.md)\<[`TouchEventMapping`](../type-aliases/TouchEventMapping.md), [`TouchContext`](../interfaces/TouchContext.md), [`TouchStates`](../type-aliases/TouchStates.md)\>\>
 
-Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L47)
+Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L47)
 
 #### Inherited from
 
@@ -118,7 +118,7 @@ Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_statesArray**: [`TouchStates`](../type-aliases/TouchStates.md)[]
 
-Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L49)
+Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L49)
 
 #### Inherited from
 
@@ -132,7 +132,7 @@ Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **currentState**(): `States`
 
-Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L85)
+Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L85)
 
 ##### Returns
 
@@ -150,7 +150,7 @@ Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **possibleStates**(): `States`[]
 
-Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L93)
+Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L93)
 
 ##### Returns
 
@@ -168,7 +168,7 @@ Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **states**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](../interfaces/State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L97)
+Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L97)
 
 ##### Returns
 
@@ -184,7 +184,7 @@ Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/cc09a87
 
 > **happens**\<`K`\>(`event`, `payload`, `context`): [`TouchStates`](../type-aliases/TouchStates.md)
 
-Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L66)
+Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L66)
 
 #### Type Parameters
 
@@ -218,7 +218,7 @@ Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87
 
 > **onHappens**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L81)
+Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L81)
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L77)
+Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L77)
 
 #### Parameters
 
@@ -262,7 +262,7 @@ Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87
 
 > **setContext**(`context`): `void`
 
-Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L89)
+Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L89)
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/cc09a87
 
 > **switchTo**(`state`): `void`
 
-Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L62)
+Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L62)
 
 #### Parameters
 

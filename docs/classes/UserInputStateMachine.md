@@ -6,7 +6,7 @@
 
 # Class: UserInputStateMachine\<EventPayloadMapping, Context, States\>
 
-Defined in: [input-state-machine/input-state-machine.ts:439](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L439)
+Defined in: [input-state-machine/input-state-machine.ts:439](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L439)
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: [input-state-machine/input-state-machine.ts:439](https://github.com/
 
 > **new UserInputStateMachine**\<`EventPayloadMapping`, `Context`, `States`\>(`states`, `initialState`, `context`): [`UserInputStateMachine`](UserInputStateMachine.md)\<`EventPayloadMapping`, `Context`, `States`\>
 
-Defined in: [input-state-machine/input-state-machine.ts:442](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L442)
+Defined in: [input-state-machine/input-state-machine.ts:442](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L442)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: [input-state-machine/input-state-machine.ts:442](https://github.com/
 
 > `protected` **\_context**: `Context`
 
-Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L48)
+Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L48)
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_currentState**: `States`
 
-Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L46)
+Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L46)
 
 #### Inherited from
 
@@ -80,7 +80,7 @@ Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_happensCallbacks**: (`event`, `payload`, `context`) => `void`[]
 
-Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L51)
+Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L51)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ keyof `EventPayloadMapping`
 
 > `protected` **\_stateChangeCallbacks**: [`StateChangeCallback`](../type-aliases/StateChangeCallback.md)\<`EventPayloadMapping`, `Context`, `States`\>[]
 
-Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L50)
+Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L50)
 
 #### Inherited from
 
@@ -122,7 +122,7 @@ Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_states**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](../interfaces/State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L47)
+Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L47)
 
 #### Inherited from
 
@@ -134,7 +134,7 @@ Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_statesArray**: `States`[]
 
-Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L49)
+Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L49)
 
 #### Inherited from
 
@@ -148,7 +148,7 @@ Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **currentState**(): `States`
 
-Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L85)
+Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L85)
 
 ##### Returns
 
@@ -166,7 +166,7 @@ Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **possibleStates**(): `States`[]
 
-Defined in: [input-state-machine/input-state-machine.ts:450](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L450)
+Defined in: [input-state-machine/input-state-machine.ts:450](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L450)
 
 ##### Returns
 
@@ -184,7 +184,7 @@ Defined in: [input-state-machine/input-state-machine.ts:450](https://github.com/
 
 > **get** **states**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](../interfaces/State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [input-state-machine/input-state-machine.ts:454](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L454)
+Defined in: [input-state-machine/input-state-machine.ts:454](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L454)
 
 ##### Returns
 
@@ -200,7 +200,7 @@ Defined in: [input-state-machine/input-state-machine.ts:454](https://github.com/
 
 > **happens**\<`K`\>(`event`, `payload`, `context`): `States`
 
-Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L66)
+Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L66)
 
 #### Type Parameters
 
@@ -234,7 +234,7 @@ Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87
 
 > **onHappens**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L81)
+Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L81)
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L77)
+Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L77)
 
 #### Parameters
 
@@ -278,7 +278,7 @@ Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87
 
 > **setContext**(`context`): `void`
 
-Defined in: [input-state-machine/input-state-machine.ts:446](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L446)
+Defined in: [input-state-machine/input-state-machine.ts:446](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L446)
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: [input-state-machine/input-state-machine.ts:446](https://github.com/
 
 > **switchTo**(`state`): `void`
 
-Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L62)
+Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L62)
 
 #### Parameters
 

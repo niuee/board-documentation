@@ -6,7 +6,7 @@
 
 # Class: BoardStateObserver
 
-Defined in: [boardify/board-state-observer.ts:21](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L21)
+Defined in: [boardify/board-state-observer.ts:21](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L21)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [boardify/board-state-observer.ts:21](https://github.com/niuee/board
 
 > **new BoardStateObserver**(`camera`): [`BoardStateObserver`](BoardStateObserver.md)
 
-Defined in: [boardify/board-state-observer.ts:33](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L33)
+Defined in: [boardify/board-state-observer.ts:33](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L33)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [boardify/board-state-observer.ts:33](https://github.com/niuee/board
 
 > **get** **camera**(): [`ObservableBoardCamera`](../interfaces/ObservableBoardCamera.md)
 
-Defined in: [boardify/board-state-observer.ts:68](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L68)
+Defined in: [boardify/board-state-observer.ts:68](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L68)
 
 ##### Returns
 
@@ -44,7 +44,7 @@ Defined in: [boardify/board-state-observer.ts:68](https://github.com/niuee/board
 
 > **set** **camera**(`camera`): `void`
 
-Defined in: [boardify/board-state-observer.ts:72](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L72)
+Defined in: [boardify/board-state-observer.ts:72](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L72)
 
 ##### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [boardify/board-state-observer.ts:72](https://github.com/niuee/board
 
 > **get** **panHandler**(): [`PanController`](../interfaces/PanController.md)
 
-Defined in: [boardify/board-state-observer.ts:77](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L77)
+Defined in: [boardify/board-state-observer.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L77)
 
 ##### Returns
 
@@ -74,7 +74,7 @@ Defined in: [boardify/board-state-observer.ts:77](https://github.com/niuee/board
 
 > **set** **panHandler**(`panHandler`): `void`
 
-Defined in: [boardify/board-state-observer.ts:81](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L81)
+Defined in: [boardify/board-state-observer.ts:81](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L81)
 
 ##### Parameters
 
@@ -94,7 +94,7 @@ Defined in: [boardify/board-state-observer.ts:81](https://github.com/niuee/board
 
 > **get** **rotationHandler**(): [`RotationHandler`](../interfaces/RotationHandler.md)
 
-Defined in: [boardify/board-state-observer.ts:95](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L95)
+Defined in: [boardify/board-state-observer.ts:95](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L95)
 
 ##### Returns
 
@@ -104,7 +104,7 @@ Defined in: [boardify/board-state-observer.ts:95](https://github.com/niuee/board
 
 > **set** **rotationHandler**(`rotationHandler`): `void`
 
-Defined in: [boardify/board-state-observer.ts:99](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L99)
+Defined in: [boardify/board-state-observer.ts:99](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L99)
 
 ##### Parameters
 
@@ -124,7 +124,7 @@ Defined in: [boardify/board-state-observer.ts:99](https://github.com/niuee/board
 
 > **get** **zoomHandler**(): [`ZoomController`](../interfaces/ZoomController.md)
 
-Defined in: [boardify/board-state-observer.ts:86](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L86)
+Defined in: [boardify/board-state-observer.ts:86](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L86)
 
 ##### Returns
 
@@ -134,7 +134,7 @@ Defined in: [boardify/board-state-observer.ts:86](https://github.com/niuee/board
 
 > **set** **zoomHandler**(`zoomHandler`): `void`
 
-Defined in: [boardify/board-state-observer.ts:90](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L90)
+Defined in: [boardify/board-state-observer.ts:90](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L90)
 
 ##### Parameters
 
@@ -152,7 +152,7 @@ Defined in: [boardify/board-state-observer.ts:90](https://github.com/niuee/board
 
 > **notifyCameraChange**(): `void`
 
-Defined in: [boardify/board-state-observer.ts:104](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L104)
+Defined in: [boardify/board-state-observer.ts:104](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L104)
 
 #### Returns
 
@@ -164,7 +164,7 @@ Defined in: [boardify/board-state-observer.ts:104](https://github.com/niuee/boar
 
 > **notifyPanHandlerChange**(): `void`
 
-Defined in: [boardify/board-state-observer.ts:108](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L108)
+Defined in: [boardify/board-state-observer.ts:108](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L108)
 
 #### Returns
 
@@ -176,7 +176,7 @@ Defined in: [boardify/board-state-observer.ts:108](https://github.com/niuee/boar
 
 > **notifyRotationHandlerChange**(): `void`
 
-Defined in: [boardify/board-state-observer.ts:116](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L116)
+Defined in: [boardify/board-state-observer.ts:116](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L116)
 
 #### Returns
 
@@ -188,7 +188,7 @@ Defined in: [boardify/board-state-observer.ts:116](https://github.com/niuee/boar
 
 > **notifyZoomHandlerChange**(): `void`
 
-Defined in: [boardify/board-state-observer.ts:112](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L112)
+Defined in: [boardify/board-state-observer.ts:112](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L112)
 
 #### Returns
 
@@ -200,7 +200,7 @@ Defined in: [boardify/board-state-observer.ts:112](https://github.com/niuee/boar
 
 > **subscribeToCamera**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:37](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L37)
+Defined in: [boardify/board-state-observer.ts:37](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L37)
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: [boardify/board-state-observer.ts:37](https://github.com/niuee/board
 
 > **subscribeToPanHandler**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:45](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L45)
+Defined in: [boardify/board-state-observer.ts:45](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L45)
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: [boardify/board-state-observer.ts:45](https://github.com/niuee/board
 
 > **subscribeToRotationHandler**(`subscriber`): () => `void`
 
-Defined in: [boardify/board-state-observer.ts:61](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L61)
+Defined in: [boardify/board-state-observer.ts:61](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L61)
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: [boardify/board-state-observer.ts:61](https://github.com/niuee/board
 
 > **subscribeToZoomHandler**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:53](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L53)
+Defined in: [boardify/board-state-observer.ts:53](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L53)
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: [boardify/board-state-observer.ts:53](https://github.com/niuee/board
 
 > **unsubscribeToCamera**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:41](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L41)
+Defined in: [boardify/board-state-observer.ts:41](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L41)
 
 #### Parameters
 
@@ -294,7 +294,7 @@ Defined in: [boardify/board-state-observer.ts:41](https://github.com/niuee/board
 
 > **unsubscribeToPanHandler**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:49](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L49)
+Defined in: [boardify/board-state-observer.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L49)
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: [boardify/board-state-observer.ts:49](https://github.com/niuee/board
 
 > **unsubscribeToZoomHandler**(`subscriber`): `void`
 
-Defined in: [boardify/board-state-observer.ts:57](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L57)
+Defined in: [boardify/board-state-observer.ts:57](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L57)
 
 #### Parameters
 

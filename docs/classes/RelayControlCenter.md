@@ -6,7 +6,7 @@
 
 # Class: RelayControlCenter
 
-Defined in: [control-center/simple-relay.ts:11](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L11)
+Defined in: [control-center/simple-relay.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L11)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [control-center/simple-relay.ts:11](https://github.com/niuee/board/b
 
 > **new RelayControlCenter**(`panStateMachine`, `zoomStateMachine`): [`RelayControlCenter`](RelayControlCenter.md)
 
-Defined in: [control-center/simple-relay.ts:16](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L16)
+Defined in: [control-center/simple-relay.ts:16](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L16)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [control-center/simple-relay.ts:16](https://github.com/niuee/board/b
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-Defined in: [control-center/simple-relay.ts:21](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L21)
+Defined in: [control-center/simple-relay.ts:21](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L21)
 
 ##### Returns
 
@@ -52,7 +52,7 @@ Defined in: [control-center/simple-relay.ts:21](https://github.com/niuee/board/b
 
 > **set** **limitEntireViewPort**(`limit`): `void`
 
-Defined in: [control-center/simple-relay.ts:25](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L25)
+Defined in: [control-center/simple-relay.ts:25](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L25)
 
 ##### Parameters
 
@@ -74,7 +74,7 @@ Defined in: [control-center/simple-relay.ts:25](https://github.com/niuee/board/b
 
 > **initatePanTransition**(): `void`
 
-Defined in: [control-center/simple-relay.ts:53](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L53)
+Defined in: [control-center/simple-relay.ts:53](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L53)
 
 #### Returns
 
@@ -86,7 +86,7 @@ Defined in: [control-center/simple-relay.ts:53](https://github.com/niuee/board/b
 
 > **initateZoomTransition**(): `void`
 
-Defined in: [control-center/simple-relay.ts:57](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L57)
+Defined in: [control-center/simple-relay.ts:57](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L57)
 
 #### Returns
 
@@ -98,7 +98,7 @@ Defined in: [control-center/simple-relay.ts:57](https://github.com/niuee/board/b
 
 > **notifyPanInput**(`delta`): `void`
 
-Defined in: [control-center/simple-relay.ts:33](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L33)
+Defined in: [control-center/simple-relay.ts:33](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L33)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [control-center/simple-relay.ts:33](https://github.com/niuee/board/b
 
 > **notifyPanToAnimationInput**(`target`): `void`
 
-Defined in: [control-center/simple-relay.ts:29](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L29)
+Defined in: [control-center/simple-relay.ts:29](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L29)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [control-center/simple-relay.ts:29](https://github.com/niuee/board/b
 
 > **notifyRotationInput**(`delta`): `void`
 
-Defined in: [control-center/simple-relay.ts:49](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L49)
+Defined in: [control-center/simple-relay.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L49)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [control-center/simple-relay.ts:49](https://github.com/niuee/board/b
 
 > **notifyZoomInput**(`delta`, `at`): `void`
 
-Defined in: [control-center/simple-relay.ts:37](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L37)
+Defined in: [control-center/simple-relay.ts:37](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L37)
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [control-center/simple-relay.ts:37](https://github.com/niuee/board/b
 
 > **notifyZoomInputAnimation**(`targetZoom`, `at`): `void`
 
-Defined in: [control-center/simple-relay.ts:41](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L41)
+Defined in: [control-center/simple-relay.ts:41](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L41)
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [control-center/simple-relay.ts:41](https://github.com/niuee/board/b
 
 > **notifyZoomInputAnimationWorld**(`targetZoom`, `at`): `void`
 
-Defined in: [control-center/simple-relay.ts:45](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/simple-relay.ts#L45)
+Defined in: [control-center/simple-relay.ts:45](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/simple-relay.ts#L45)
 
 #### Parameters
 

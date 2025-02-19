@@ -6,7 +6,7 @@
 
 # Class: `abstract` TemplateState\<EventPayloadMapping, Context, States\>
 
-Defined in: [being/interfaces.ts:105](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L105)
+Defined in: [being/interfaces.ts:105](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L105)
 
 ## Extended by
 
@@ -56,7 +56,7 @@ Defined in: [being/interfaces.ts:105](https://github.com/niuee/board/blob/cc09a8
 
 > `protected` **\_eventGuards**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\> = `{}`
 
-Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L109)
+Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L109)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/cc09a8
 
 > `protected` **\_guards**: [`Guard`](../type-aliases/Guard.md)\<`Context`\> = `{}`
 
-Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L108)
+Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L108)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/cc09a8
 
 > `abstract` **eventReactions**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventAction`](../type-aliases/EventAction.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:107](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L107)
+Defined in: [being/interfaces.ts:107](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L107)
 
 #### Implementation of
 
@@ -86,7 +86,7 @@ Defined in: [being/interfaces.ts:107](https://github.com/niuee/board/blob/cc09a8
 
 > **get** **eventGuards**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\>
 
-Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L115)
+Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L115)
 
 ##### Returns
 
@@ -104,7 +104,7 @@ Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/cc09a8
 
 > **get** **guards**(): [`Guard`](../type-aliases/Guard.md)\<`Context`\>
 
-Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L111)
+Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L111)
 
 ##### Returns
 
@@ -120,7 +120,7 @@ Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/cc09a8
 
 > **handles**\<`K`\>(`stateMachine`, `event`, `payload`, `context`): `States`
 
-Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L127)
+Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L127)
 
 #### Type Parameters
 
@@ -158,7 +158,7 @@ Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/cc09a8
 
 > **uponEnter**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L119)
+Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L119)
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/cc09a8
 
 > **uponLeave**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L123)
+Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L123)
 
 #### Parameters
 

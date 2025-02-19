@@ -8,4 +8,4 @@
 
 > **RawUserInputEvent**: [`RawUserPanInputEvent`](RawUserPanInputEvent.md) \| [`RawUserZoomInputEvent`](RawUserZoomInputEvent.md) \| [`RawUserRotateInputEvent`](RawUserRotateInputEvent.md)
 
-Defined in: [input-observer/input-observer.ts:40](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-observer/input-observer.ts#L40)
+Defined in: [input-observer/input-observer.ts:40](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L40)

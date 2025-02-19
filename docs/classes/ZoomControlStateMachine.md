@@ -6,7 +6,7 @@
 
 # Class: ZoomControlStateMachine
 
-Defined in: [control-center/zoom-control-state-machine.ts:177](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L177)
+Defined in: [control-center/zoom-control-state-machine.ts:177](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L177)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:177](https://github.co
 
 > **new ZoomControlStateMachine**(`states`, `initialState`, `context`): [`ZoomControlStateMachine`](ZoomControlStateMachine.md)
 
-Defined in: [control-center/zoom-control-state-machine.ts:179](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L179)
+Defined in: [control-center/zoom-control-state-machine.ts:179](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L179)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:179](https://github.co
 
 > `protected` **\_context**: [`ZoomContext`](../type-aliases/ZoomContext.md)
 
-Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L48)
+Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L48)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_currentState**: [`ZoomControlStates`](../type-aliases/ZoomControlStates.md)
 
-Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L46)
+Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L46)
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_happensCallbacks**: (`event`, `payload`, `context`) => `void`[]
 
-Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L51)
+Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L51)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ keyof [`ZoomEventPayloadMapping`](../type-aliases/ZoomEventPayloadMapping.md)
 
 > `protected` **\_stateChangeCallbacks**: [`StateChangeCallback`](../type-aliases/StateChangeCallback.md)\<[`ZoomEventPayloadMapping`](../type-aliases/ZoomEventPayloadMapping.md), [`ZoomContext`](../type-aliases/ZoomContext.md), [`ZoomControlStates`](../type-aliases/ZoomControlStates.md)\>[]
 
-Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L50)
+Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L50)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_states**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<[`ZoomControlStates`](../type-aliases/ZoomControlStates.md), [`State`](../interfaces/State.md)\<[`ZoomEventPayloadMapping`](../type-aliases/ZoomEventPayloadMapping.md), [`ZoomContext`](../type-aliases/ZoomContext.md), [`ZoomControlStates`](../type-aliases/ZoomControlStates.md)\>\>
 
-Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L47)
+Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L47)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/cc09a87
 
 > `protected` **\_statesArray**: [`ZoomControlStates`](../type-aliases/ZoomControlStates.md)[]
 
-Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L49)
+Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L49)
 
 #### Inherited from
 
@@ -140,7 +140,7 @@ Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **currentState**(): `States`
 
-Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L85)
+Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L85)
 
 ##### Returns
 
@@ -158,7 +158,7 @@ Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **possibleStates**(): `States`[]
 
-Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L93)
+Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L93)
 
 ##### Returns
 
@@ -176,7 +176,7 @@ Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/cc09a87
 
 > **get** **states**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](../interfaces/State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L97)
+Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L97)
 
 ##### Returns
 
@@ -192,7 +192,7 @@ Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/cc09a87
 
 > **happens**\<`K`\>(`event`, `payload`, `context`): [`ZoomControlStates`](../type-aliases/ZoomControlStates.md)
 
-Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L66)
+Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L66)
 
 #### Type Parameters
 
@@ -226,7 +226,7 @@ Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/cc09a87
 
 > **initateTransition**(): `void`
 
-Defined in: [control-center/zoom-control-state-machine.ts:199](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L199)
+Defined in: [control-center/zoom-control-state-machine.ts:199](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L199)
 
 #### Returns
 
@@ -238,7 +238,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:199](https://github.co
 
 > **notifyZoomByAtInput**(`delta`, `at`): `void`
 
-Defined in: [control-center/zoom-control-state-machine.ts:183](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L183)
+Defined in: [control-center/zoom-control-state-machine.ts:183](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L183)
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:183](https://github.co
 
 > **notifyZoomByAtInputAnimation**(`delta`, `at`): `void`
 
-Defined in: [control-center/zoom-control-state-machine.ts:187](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L187)
+Defined in: [control-center/zoom-control-state-machine.ts:187](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L187)
 
 #### Parameters
 
@@ -282,7 +282,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:187](https://github.co
 
 > **notifyZoomToAtCenterInput**(`targetZoom`, `at`): `void`
 
-Defined in: [control-center/zoom-control-state-machine.ts:191](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L191)
+Defined in: [control-center/zoom-control-state-machine.ts:191](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L191)
 
 #### Parameters
 
@@ -304,7 +304,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:191](https://github.co
 
 > **notifyZoomToAtWorldInput**(`targetZoom`, `at`): `void`
 
-Defined in: [control-center/zoom-control-state-machine.ts:195](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/control-center/zoom-control-state-machine.ts#L195)
+Defined in: [control-center/zoom-control-state-machine.ts:195](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/zoom-control-state-machine.ts#L195)
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: [control-center/zoom-control-state-machine.ts:195](https://github.co
 
 > **onHappens**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L81)
+Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L81)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/cc09a87
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L77)
+Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L77)
 
 #### Parameters
 
@@ -370,7 +370,7 @@ Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/cc09a87
 
 > **setContext**(`context`): `void`
 
-Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L89)
+Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L89)
 
 #### Parameters
 
@@ -392,7 +392,7 @@ Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/cc09a87
 
 > **switchTo**(`state`): `void`
 
-Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L62)
+Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L62)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: CameraObservable
 
-Defined in: [camera-observer/camera-observer.ts:133](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L133)
+Defined in: [camera-observer/camera-observer.ts:133](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L133)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [camera-observer/camera-observer.ts:133](https://github.com/niuee/bo
 
 > **new CameraObservable**(): [`CameraObservable`](CameraObservable.md)
 
-Defined in: [camera-observer/camera-observer.ts:140](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L140)
+Defined in: [camera-observer/camera-observer.ts:140](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L140)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [camera-observer/camera-observer.ts:140](https://github.com/niuee/bo
 
 > **notifyPan**(`event`, `cameraState`): `void`
 
-Defined in: [camera-observer/camera-observer.ts:147](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L147)
+Defined in: [camera-observer/camera-observer.ts:147](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L147)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [camera-observer/camera-observer.ts:147](https://github.com/niuee/bo
 
 > **notifyRotate**(`event`, `cameraState`): `void`
 
-Defined in: [camera-observer/camera-observer.ts:157](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L157)
+Defined in: [camera-observer/camera-observer.ts:157](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L157)
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: [camera-observer/camera-observer.ts:157](https://github.com/niuee/bo
 
 > **notifyZoom**(`event`, `cameraState`): `void`
 
-Defined in: [camera-observer/camera-observer.ts:152](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L152)
+Defined in: [camera-observer/camera-observer.ts:152](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L152)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: [camera-observer/camera-observer.ts:152](https://github.com/niuee/bo
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [camera-observer/camera-observer.ts:162](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/camera-observer/camera-observer.ts#L162)
+Defined in: [camera-observer/camera-observer.ts:162](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L162)
 
 #### Type Parameters
 

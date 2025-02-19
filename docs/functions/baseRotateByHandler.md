@@ -8,7 +8,7 @@
 
 > **baseRotateByHandler**(`delta`, `camera`, `config`): `number`
 
-Defined in: [board-camera/rotation/rotation-handler.ts:12](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/rotation/rotation-handler.ts#L12)
+Defined in: [board-camera/rotation/rotation-handler.ts:12](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/rotation/rotation-handler.ts#L12)
 
 ## Parameters
 

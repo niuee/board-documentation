@@ -8,7 +8,7 @@
 
 > **convertFromWindow2ViewPort**(`point`, `canvas`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:64](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L64)
+Defined in: [input-state-machine/input-state-machine.ts:64](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L64)
 
 ## Parameters
 

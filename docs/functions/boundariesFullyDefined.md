@@ -8,7 +8,7 @@
 
 > **boundariesFullyDefined**(`boundaries`): `boolean`
 
-Defined in: [board-camera/utils/position.ts:53](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/utils/position.ts#L53)
+Defined in: [board-camera/utils/position.ts:53](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/utils/position.ts#L53)
 
 ## Parameters
 

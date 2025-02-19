@@ -6,7 +6,7 @@
 
 # Class: BoardWorld
 
-Defined in: [input-state-machine/input-state-machine.ts:432](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L432)
+Defined in: [input-state-machine/input-state-machine.ts:432](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L432)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [input-state-machine/input-state-machine.ts:432](https://github.com/
 
 > **processPoint**(`stateMachine`, `point`): `boolean`
 
-Defined in: [input-state-machine/input-state-machine.ts:433](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L433)
+Defined in: [input-state-machine/input-state-machine.ts:433](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L433)
 
 #### Parameters
 

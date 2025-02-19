@@ -6,7 +6,7 @@
 
 # Interface: BoardCameraSubscriber
 
-Defined in: [boardify/board-state-observer.ts:5](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L5)
+Defined in: [boardify/board-state-observer.ts:5](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L5)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [boardify/board-state-observer.ts:5](https://github.com/niuee/board/
 
 > **updateCamera**(`camera`): `void`
 
-Defined in: [boardify/board-state-observer.ts:6](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/boardify/board-state-observer.ts#L6)
+Defined in: [boardify/board-state-observer.ts:6](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L6)
 
 #### Parameters
 

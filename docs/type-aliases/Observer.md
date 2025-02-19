@@ -8,7 +8,7 @@
 
 > **Observer**\<`T`\>: (...`data`) => `void`
 
-Defined in: [util/observable.ts:1](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/util/observable.ts#L1)
+Defined in: [util/observable.ts:1](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/util/observable.ts#L1)
 
 ## Type Parameters
 

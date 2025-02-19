@@ -6,7 +6,7 @@
 
 # Class: DefaultBoardKMTStrategy
 
-Defined in: [kmt-strategy/kmt-strategy.ts:51](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L51)
+Defined in: [kmt-strategy/kmt-strategy.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L51)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:51](https://github.com/niuee/board/blo
 
 > **new DefaultBoardKMTStrategy**(`canvas`, `eventTarget`, `inputObserver`, `selectionInputObserver`, `debugMode`, `alignCoordinateSystem`): [`DefaultBoardKMTStrategy`](DefaultBoardKMTStrategy.md)
 
-Defined in: [kmt-strategy/kmt-strategy.ts:69](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L69)
+Defined in: [kmt-strategy/kmt-strategy.ts:69](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L69)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:69](https://github.com/niuee/board/blo
 
 > **get** **alignCoordinateSystem**(): `boolean`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:138](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L138)
+Defined in: [kmt-strategy/kmt-strategy.ts:138](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L138)
 
 ##### Returns
 
@@ -68,7 +68,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:138](https://github.com/niuee/board/bl
 
 > **set** **alignCoordinateSystem**(`value`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:142](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L142)
+Defined in: [kmt-strategy/kmt-strategy.ts:142](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L142)
 
 ##### Parameters
 
@@ -92,7 +92,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:142](https://github.com/niuee/board/bl
 
 > **get** **canvas**(): [`HTMLCanvasElement`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement)
 
-Defined in: [kmt-strategy/kmt-strategy.ts:146](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L146)
+Defined in: [kmt-strategy/kmt-strategy.ts:146](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L146)
 
 ##### Returns
 
@@ -110,7 +110,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:146](https://github.com/niuee/board/bl
 
 > **get** **debugMode**(): `boolean`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:122](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L122)
+Defined in: [kmt-strategy/kmt-strategy.ts:122](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L122)
 
 ##### Returns
 
@@ -120,7 +120,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:122](https://github.com/niuee/board/bl
 
 > **set** **debugMode**(`value`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:126](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L126)
+Defined in: [kmt-strategy/kmt-strategy.ts:126](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L126)
 
 ##### Parameters
 
@@ -144,7 +144,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:126](https://github.com/niuee/board/bl
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:130](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L130)
+Defined in: [kmt-strategy/kmt-strategy.ts:130](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L130)
 
 ##### Returns
 
@@ -154,7 +154,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:130](https://github.com/niuee/board/bl
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:134](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L134)
+Defined in: [kmt-strategy/kmt-strategy.ts:134](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L134)
 
 ##### Parameters
 
@@ -178,7 +178,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:134](https://github.com/niuee/board/bl
 
 > **get** **initialCursorPosition**(): [`Point`](../type-aliases/Point.md)
 
-Defined in: [kmt-strategy/kmt-strategy.ts:118](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L118)
+Defined in: [kmt-strategy/kmt-strategy.ts:118](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L118)
 
 ##### Returns
 
@@ -192,7 +192,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:118](https://github.com/niuee/board/bl
 
 > **get** **inputObserver**(): [`RawUserInputObservable`](RawUserInputObservable.md)
 
-Defined in: [kmt-strategy/kmt-strategy.ts:150](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L150)
+Defined in: [kmt-strategy/kmt-strategy.ts:150](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L150)
 
 ##### Returns
 
@@ -210,7 +210,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:150](https://github.com/niuee/board/bl
 
 > **get** **selectionInputObserver**(): [`SelectionInputObserver`](SelectionInputObserver.md)
 
-Defined in: [kmt-strategy/kmt-strategy.ts:158](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L158)
+Defined in: [kmt-strategy/kmt-strategy.ts:158](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L158)
 
 ##### Returns
 
@@ -228,7 +228,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:158](https://github.com/niuee/board/bl
 
 > **get** **stateMachine**(): [`UserInputStateMachine`](UserInputStateMachine.md)\<[`BoardEventMapping`](../type-aliases/BoardEventMapping.md), [`BoardContext`](../type-aliases/BoardContext.md), [`BoardStates`](../type-aliases/BoardStates.md)\>
 
-Defined in: [kmt-strategy/kmt-strategy.ts:154](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L154)
+Defined in: [kmt-strategy/kmt-strategy.ts:154](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L154)
 
 ##### Returns
 
@@ -244,7 +244,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:154](https://github.com/niuee/board/bl
 
 > **addEventListeners**(`eventTarget`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:166](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L166)
+Defined in: [kmt-strategy/kmt-strategy.ts:166](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L166)
 
 #### Parameters
 
@@ -262,7 +262,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:166](https://github.com/niuee/board/bl
 
 > **bindFunctions**(): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:184](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L184)
+Defined in: [kmt-strategy/kmt-strategy.ts:184](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L184)
 
 #### Returns
 
@@ -274,7 +274,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:184](https://github.com/niuee/board/bl
 
 > **keypressHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:249](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L249)
+Defined in: [kmt-strategy/kmt-strategy.ts:249](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L249)
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:249](https://github.com/niuee/board/bl
 
 > **keyupHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:260](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L260)
+Defined in: [kmt-strategy/kmt-strategy.ts:260](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L260)
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:260](https://github.com/niuee/board/bl
 
 > **notifyOnPan**(`delta`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:106](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L106)
+Defined in: [kmt-strategy/kmt-strategy.ts:106](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L106)
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:106](https://github.com/niuee/board/bl
 
 > **notifyOnZoom**(`zoomAmount`, `anchorPoint`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:110](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L110)
+Defined in: [kmt-strategy/kmt-strategy.ts:110](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L110)
 
 #### Parameters
 
@@ -350,7 +350,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:110](https://github.com/niuee/board/bl
 
 > **pointerDownHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:193](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L193)
+Defined in: [kmt-strategy/kmt-strategy.ts:193](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L193)
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:193](https://github.com/niuee/board/bl
 
 > **pointerMoveHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:225](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L225)
+Defined in: [kmt-strategy/kmt-strategy.ts:225](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L225)
 
 #### Parameters
 
@@ -386,7 +386,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:225](https://github.com/niuee/board/bl
 
 > **pointerUpHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:209](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L209)
+Defined in: [kmt-strategy/kmt-strategy.ts:209](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L209)
 
 #### Parameters
 
@@ -404,7 +404,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:209](https://github.com/niuee/board/bl
 
 > **scrollHandler**(`e`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:239](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L239)
+Defined in: [kmt-strategy/kmt-strategy.ts:239](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L239)
 
 #### Parameters
 
@@ -422,7 +422,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:239](https://github.com/niuee/board/bl
 
 > **setInitialCursorPosition**(`position`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:114](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L114)
+Defined in: [kmt-strategy/kmt-strategy.ts:114](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L114)
 
 #### Parameters
 
@@ -440,7 +440,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:114](https://github.com/niuee/board/bl
 
 > **setSelectionEndPoint**(`point`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:98](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L98)
+Defined in: [kmt-strategy/kmt-strategy.ts:98](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L98)
 
 #### Parameters
 
@@ -458,7 +458,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:98](https://github.com/niuee/board/blo
 
 > **setSelectionStartPoint**(`point`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:102](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L102)
+Defined in: [kmt-strategy/kmt-strategy.ts:102](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L102)
 
 #### Parameters
 
@@ -476,7 +476,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:102](https://github.com/niuee/board/bl
 
 > **setUp**(): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:162](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L162)
+Defined in: [kmt-strategy/kmt-strategy.ts:162](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L162)
 
 #### Returns
 
@@ -492,7 +492,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:162](https://github.com/niuee/board/bl
 
 > **tearDown**(): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:175](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L175)
+Defined in: [kmt-strategy/kmt-strategy.ts:175](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L175)
 
 #### Returns
 
@@ -508,7 +508,7 @@ Defined in: [kmt-strategy/kmt-strategy.ts:175](https://github.com/niuee/board/bl
 
 > **toggleSelectionBox**(`value`): `void`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:94](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L94)
+Defined in: [kmt-strategy/kmt-strategy.ts:94](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L94)
 
 #### Parameters
 

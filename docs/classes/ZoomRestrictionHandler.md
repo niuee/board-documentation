@@ -6,7 +6,7 @@
 
 # Class: ZoomRestrictionHandler
 
-Defined in: [board-camera/zoom/zoom.ts:141](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L141)
+Defined in: [board-camera/zoom/zoom.ts:141](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L141)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [board-camera/zoom/zoom.ts:141](https://github.com/niuee/board/blob/
 
 > **new ZoomRestrictionHandler**(`nextHandler`): [`ZoomRestrictionHandler`](ZoomRestrictionHandler.md)
 
-Defined in: [board-camera/zoom/zoom.ts:145](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L145)
+Defined in: [board-camera/zoom/zoom.ts:145](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L145)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [board-camera/zoom/zoom.ts:145](https://github.com/niuee/board/blob/
 
 > `protected` `optional` **\_nextHandler**: [`ZoomHandler`](../interfaces/ZoomHandler.md)
 
-Defined in: [board-camera/zoom/zoom.ts:23](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L23)
+Defined in: [board-camera/zoom/zoom.ts:23](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L23)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [board-camera/zoom/zoom.ts:23](https://github.com/niuee/board/blob/c
 
 > **get** **nextHandler**(): [`ZoomHandler`](../interfaces/ZoomHandler.md)
 
-Defined in: [board-camera/zoom/zoom.ts:33](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L33)
+Defined in: [board-camera/zoom/zoom.ts:33](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L33)
 
 ##### Returns
 
@@ -64,7 +64,7 @@ Defined in: [board-camera/zoom/zoom.ts:33](https://github.com/niuee/board/blob/c
 
 > **set** **nextHandler**(`handler`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:29](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L29)
+Defined in: [board-camera/zoom/zoom.ts:29](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L29)
 
 ##### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [board-camera/zoom/zoom.ts:29](https://github.com/niuee/board/blob/c
 
 > **get** **restrictZoom**(): `boolean`
 
-Defined in: [board-camera/zoom/zoom.ts:153](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L153)
+Defined in: [board-camera/zoom/zoom.ts:153](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L153)
 
 ##### Returns
 
@@ -98,7 +98,7 @@ Defined in: [board-camera/zoom/zoom.ts:153](https://github.com/niuee/board/blob/
 
 > **set** **restrictZoom**(`restrictZoom`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:149](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L149)
+Defined in: [board-camera/zoom/zoom.ts:149](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L149)
 
 ##### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [board-camera/zoom/zoom.ts:149](https://github.com/niuee/board/blob/
 
 > **chainHandler**(`handler`): [`ZoomHandler`](../interfaces/ZoomHandler.md)
 
-Defined in: [board-camera/zoom/zoom.ts:37](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L37)
+Defined in: [board-camera/zoom/zoom.ts:37](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L37)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [board-camera/zoom/zoom.ts:37](https://github.com/niuee/board/blob/c
 
 > **zoomCameraBy**(`camera`, `diff`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:164](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L164)
+Defined in: [board-camera/zoom/zoom.ts:164](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L164)
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: [board-camera/zoom/zoom.ts:164](https://github.com/niuee/board/blob/
 
 > **zoomCameraByAt**(`camera`, `delta`, `at`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:178](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L178)
+Defined in: [board-camera/zoom/zoom.ts:178](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L178)
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: [board-camera/zoom/zoom.ts:178](https://github.com/niuee/board/blob/
 
 > **zoomCameraTo**(`camera`, `targetZoom`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:157](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L157)
+Defined in: [board-camera/zoom/zoom.ts:157](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L157)
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: [board-camera/zoom/zoom.ts:157](https://github.com/niuee/board/blob/
 
 > **zoomCameraToAt**(`camera`, `to`, `at`): `void`
 
-Defined in: [board-camera/zoom/zoom.ts:171](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/board-camera/zoom/zoom.ts#L171)
+Defined in: [board-camera/zoom/zoom.ts:171](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/zoom/zoom.ts#L171)
 
 #### Parameters
 

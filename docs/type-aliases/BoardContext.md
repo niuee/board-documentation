@@ -8,7 +8,7 @@
 
 > **BoardContext**: `object`
 
-Defined in: [input-state-machine/input-state-machine.ts:33](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L33)
+Defined in: [input-state-machine/input-state-machine.ts:33](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L33)
 
 ## Type declaration
 

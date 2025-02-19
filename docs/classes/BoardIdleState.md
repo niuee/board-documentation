@@ -6,7 +6,7 @@
 
 # Class: BoardIdleState
 
-Defined in: [input-state-machine/input-state-machine.ts:70](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L70)
+Defined in: [input-state-machine/input-state-machine.ts:70](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L70)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [input-state-machine/input-state-machine.ts:70](https://github.com/n
 
 > **new BoardIdleState**(`world`): [`BoardIdleState`](BoardIdleState.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:74](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L74)
+Defined in: [input-state-machine/input-state-machine.ts:74](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L74)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [input-state-machine/input-state-machine.ts:74](https://github.com/n
 
 > `protected` **\_eventGuards**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<[`BoardEventMapping`](../type-aliases/BoardEventMapping.md), [`BoardStates`](../type-aliases/BoardStates.md), [`BoardContext`](../type-aliases/BoardContext.md), [`Guard`](../type-aliases/Guard.md)\<[`BoardContext`](../type-aliases/BoardContext.md)\>\>\> = `{}`
 
-Defined in: [input-state-machine/input-state-machine.ts:83](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L83)
+Defined in: [input-state-machine/input-state-machine.ts:83](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L83)
 
 #### Overrides
 
@@ -52,7 +52,7 @@ Defined in: [input-state-machine/input-state-machine.ts:83](https://github.com/n
 
 > `protected` **\_guards**: [`Guard`](../type-aliases/Guard.md)\<[`BoardContext`](../type-aliases/BoardContext.md), `"isIdle"`\>
 
-Defined in: [input-state-machine/input-state-machine.ts:79](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L79)
+Defined in: [input-state-machine/input-state-machine.ts:79](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L79)
 
 #### Overrides
 
@@ -66,7 +66,7 @@ Defined in: [input-state-machine/input-state-machine.ts:79](https://github.com/n
 
 > **get** **eventGuards**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\>
 
-Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L115)
+Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L115)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/cc09a8
 
 > **get** **eventReactions**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventAction`](../type-aliases/EventAction.md)\<[`BoardEventMapping`](../type-aliases/BoardEventMapping.md), [`BoardContext`](../type-aliases/BoardContext.md), [`BoardStates`](../type-aliases/BoardStates.md)\>\>
 
-Defined in: [input-state-machine/input-state-machine.ts:87](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L87)
+Defined in: [input-state-machine/input-state-machine.ts:87](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L87)
 
 ##### Returns
 
@@ -102,7 +102,7 @@ Defined in: [input-state-machine/input-state-machine.ts:87](https://github.com/n
 
 > **get** **guards**(): [`Guard`](../type-aliases/Guard.md)\<`Context`\>
 
-Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L111)
+Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L111)
 
 ##### Returns
 
@@ -118,7 +118,7 @@ Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/cc09a8
 
 > **handles**\<`K`\>(`stateMachine`, `event`, `payload`, `context`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L127)
+Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L127)
 
 #### Type Parameters
 
@@ -156,7 +156,7 @@ Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/cc09a8
 
 > **leftPointerDownHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:91](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L91)
+Defined in: [input-state-machine/input-state-machine.ts:91](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L91)
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: [input-state-machine/input-state-machine.ts:91](https://github.com/n
 
 > **leftPointerMoveHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:98](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L98)
+Defined in: [input-state-machine/input-state-machine.ts:98](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L98)
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [input-state-machine/input-state-machine.ts:98](https://github.com/n
 
 > **middlePointerDownHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:146](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L146)
+Defined in: [input-state-machine/input-state-machine.ts:146](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L146)
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: [input-state-machine/input-state-machine.ts:146](https://github.com/
 
 > **scrollHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:123](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L123)
+Defined in: [input-state-machine/input-state-machine.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L123)
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: [input-state-machine/input-state-machine.ts:123](https://github.com/
 
 > **scrollWithCtrlHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:128](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L128)
+Defined in: [input-state-machine/input-state-machine.ts:128](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L128)
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: [input-state-machine/input-state-machine.ts:128](https://github.com/
 
 > **spacebarDownHandler**(`stateMachine`, `context`, `payload`): [`BoardStates`](../type-aliases/BoardStates.md)
 
-Defined in: [input-state-machine/input-state-machine.ts:141](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/input-state-machine/input-state-machine.ts#L141)
+Defined in: [input-state-machine/input-state-machine.ts:141](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/input-state-machine.ts#L141)
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: [input-state-machine/input-state-machine.ts:141](https://github.com/
 
 > **uponEnter**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L119)
+Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L119)
 
 #### Parameters
 
@@ -338,7 +338,7 @@ Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/cc09a8
 
 > **uponLeave**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/being/interfaces.ts#L123)
+Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L123)
 
 #### Parameters
 

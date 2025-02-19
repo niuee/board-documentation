@@ -8,7 +8,7 @@
 
 > **calculateOrderOfMagnitude**(`value`): `number`
 
-Defined in: [util/ruler.ts:1](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/util/ruler.ts#L1)
+Defined in: [util/ruler.ts:1](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/util/ruler.ts#L1)
 
 ## Parameters
 

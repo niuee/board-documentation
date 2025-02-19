@@ -8,7 +8,7 @@
 
 > **MinimumWheelEvent**: `object`
 
-Defined in: [kmt-strategy/kmt-strategy.ts:32](https://github.com/niuee/board/blob/cc09a87e934160adef876c4e11d51fd97e78653d/src/kmt-strategy/kmt-strategy.ts#L32)
+Defined in: [kmt-strategy/kmt-strategy.ts:32](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/kmt-strategy/kmt-strategy.ts#L32)
 
 ## Type declaration
 
