@@ -6,7 +6,7 @@
 
 # Class: InputObserver
 
-Defined in: [input-observer/input-observer.ts:50](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L50)
+Defined in: [input-observer/input-observer.ts:50](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L50)
 
 ## Translation Block
 
@@ -18,7 +18,7 @@ This is the observer class that listens to input events and notifies the control
 
 > **new InputObserver**(`controlCenter`): [`InputObserver`](InputObserver.md)
 
-Defined in: [input-observer/input-observer.ts:58](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L58)
+Defined in: [input-observer/input-observer.ts:58](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L58)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [input-observer/input-observer.ts:58](https://github.com/niuee/board
 
 > **get** **controlCenter**(): [`InputControlCenter`](../interfaces/InputControlCenter.md)
 
-Defined in: [input-observer/input-observer.ts:105](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L105)
+Defined in: [input-observer/input-observer.ts:105](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L105)
 
 ##### Returns
 
@@ -48,7 +48,7 @@ Defined in: [input-observer/input-observer.ts:105](https://github.com/niuee/boar
 
 > **set** **controlCenter**(`value`): `void`
 
-Defined in: [input-observer/input-observer.ts:109](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L109)
+Defined in: [input-observer/input-observer.ts:109](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L109)
 
 ##### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [input-observer/input-observer.ts:109](https://github.com/niuee/boar
 
 > **notifyOnPan**(`diff`): `void`
 
-Defined in: [input-observer/input-observer.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L62)
+Defined in: [input-observer/input-observer.ts:62](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L62)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [input-observer/input-observer.ts:62](https://github.com/niuee/board
 
 > **notifyOnRotation**(`camera`, `deltaRotation`): `void`
 
-Defined in: [input-observer/input-observer.ts:76](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L76)
+Defined in: [input-observer/input-observer.ts:76](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L76)
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: [input-observer/input-observer.ts:76](https://github.com/niuee/board
 
 > **notifyOnZoom**(`deltaZoomAmount`, `anchorPoint`): `void`
 
-Defined in: [input-observer/input-observer.ts:69](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L69)
+Defined in: [input-observer/input-observer.ts:69](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L69)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: [input-observer/input-observer.ts:69](https://github.com/niuee/board
 
 > **onInput**\<`K`\>(`eventName`, `callback`): [`UnsubscribeToUserRawInput`](../type-aliases/UnsubscribeToUserRawInput.md)
 
-Defined in: [input-observer/input-observer.ts:83](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-observer/input-observer.ts#L83)
+Defined in: [input-observer/input-observer.ts:83](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-observer/input-observer.ts#L83)
 
 #### Type Parameters
 

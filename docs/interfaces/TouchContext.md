@@ -6,7 +6,7 @@
 
 # Interface: TouchContext
 
-Defined in: [input-state-machine/touch-state-machine.ts:7](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L7)
+Defined in: [input-state-machine/touch-state-machine.ts:7](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:7](https://github.com/ni
 
 > **addTouchPoints**: (`points`) => `void`
 
-Defined in: [input-state-machine/touch-state-machine.ts:8](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L8)
+Defined in: [input-state-machine/touch-state-machine.ts:8](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L8)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:8](https://github.com/ni
 
 > **canvas**: [`HTMLCanvasElement`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement)
 
-Defined in: [input-state-machine/touch-state-machine.ts:15](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L15)
+Defined in: [input-state-machine/touch-state-machine.ts:15](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L15)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:15](https://github.com/n
 
 > **getCurrentTouchPointsCount**: () => `number`
 
-Defined in: [input-state-machine/touch-state-machine.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L10)
+Defined in: [input-state-machine/touch-state-machine.ts:10](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L10)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:10](https://github.com/n
 
 > **getInitialTouchPointsPositions**: (`idents`) => [`TouchPoints`](../type-aliases/TouchPoints.md)[]
 
-Defined in: [input-state-machine/touch-state-machine.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L11)
+Defined in: [input-state-machine/touch-state-machine.ts:11](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L11)
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:11](https://github.com/n
 
 > **notifyOnPan**: (`delta`) => `void`
 
-Defined in: [input-state-machine/touch-state-machine.ts:13](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L13)
+Defined in: [input-state-machine/touch-state-machine.ts:13](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L13)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:13](https://github.com/n
 
 > **notifyOnZoom**: (`zoomAmount`, `anchorPoint`) => `void`
 
-Defined in: [input-state-machine/touch-state-machine.ts:14](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L14)
+Defined in: [input-state-machine/touch-state-machine.ts:14](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L14)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:14](https://github.com/n
 
 > **removeTouchPoints**: (`idents`) => `void`
 
-Defined in: [input-state-machine/touch-state-machine.ts:9](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L9)
+Defined in: [input-state-machine/touch-state-machine.ts:9](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L9)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:9](https://github.com/ni
 
 > **updateTouchPoints**: (`pointsMoved`) => `void`
 
-Defined in: [input-state-machine/touch-state-machine.ts:12](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L12)
+Defined in: [input-state-machine/touch-state-machine.ts:12](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L12)
 
 #### Parameters
 

@@ -8,7 +8,7 @@
 
 > **zoomLevelBoundariesShouldUpdate**(`zoomLevelBoundaries`, `targetMinZoomLevel`): `boolean`
 
-Defined in: [boardify/utils/zoomlevel-adjustment.ts:40](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/utils/zoomlevel-adjustment.ts#L40)
+Defined in: [boardify/utils/zoomlevel-adjustment.ts:40](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/boardify/utils/zoomlevel-adjustment.ts#L40)
 
 ## Parameters
 

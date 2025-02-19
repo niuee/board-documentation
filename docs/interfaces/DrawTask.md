@@ -6,7 +6,7 @@
 
 # Interface: DrawTask
 
-Defined in: [drawing-engine/driver.ts:2](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/driver.ts#L2)
+Defined in: [drawing-engine/driver.ts:2](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/drawing-engine/driver.ts#L2)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [drawing-engine/driver.ts:2](https://github.com/niuee/board/blob/e6c
 
 > **draw**(`deltaTime`): `void`
 
-Defined in: [drawing-engine/driver.ts:3](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/driver.ts#L3)
+Defined in: [drawing-engine/driver.ts:3](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/drawing-engine/driver.ts#L3)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [drawing-engine/driver.ts:3](https://github.com/niuee/board/blob/e6c
 
 > **drawWithContext**(`context`, `deltaTime`): `void`
 
-Defined in: [drawing-engine/driver.ts:4](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/drawing-engine/driver.ts#L4)
+Defined in: [drawing-engine/driver.ts:4](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/drawing-engine/driver.ts#L4)
 
 #### Parameters
 

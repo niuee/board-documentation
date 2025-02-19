@@ -6,7 +6,7 @@
 
 # Interface: BoardPanHandlerSubscriber
 
-Defined in: [boardify/board-state-observer.ts:9](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L9)
+Defined in: [boardify/board-state-observer.ts:9](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/boardify/board-state-observer.ts#L9)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [boardify/board-state-observer.ts:9](https://github.com/niuee/board/
 
 > **updatePanHandler**(`panHandler`): `void`
 
-Defined in: [boardify/board-state-observer.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/boardify/board-state-observer.ts#L10)
+Defined in: [boardify/board-state-observer.ts:10](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/boardify/board-state-observer.ts#L10)
 
 #### Parameters
 

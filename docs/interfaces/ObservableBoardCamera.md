@@ -6,7 +6,7 @@
 
 # Interface: ObservableBoardCamera
 
-Defined in: [board-camera/interface.ts:10](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L10)
+Defined in: [board-camera/interface.ts:10](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L10)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [board-camera/interface.ts:10](https://github.com/niuee/board/blob/e
 
 > `optional` **boundaries**: [`Boundaries`](../type-aliases/Boundaries.md)
 
-Defined in: [board-camera/interface.ts:20](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L20)
+Defined in: [board-camera/interface.ts:20](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L20)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [board-camera/interface.ts:20](https://github.com/niuee/board/blob/e
 
 > **position**: [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/interface.ts:15](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L15)
+Defined in: [board-camera/interface.ts:15](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L15)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [board-camera/interface.ts:15](https://github.com/niuee/board/blob/e
 
 > **rotation**: `number`
 
-Defined in: [board-camera/interface.ts:16](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L16)
+Defined in: [board-camera/interface.ts:16](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L16)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [board-camera/interface.ts:16](https://github.com/niuee/board/blob/e
 
 > `optional` **rotationBoundaries**: [`RotationLimits`](../type-aliases/RotationLimits.md)
 
-Defined in: [board-camera/interface.ts:22](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L22)
+Defined in: [board-camera/interface.ts:22](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L22)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: [board-camera/interface.ts:22](https://github.com/niuee/board/blob/e
 
 > **viewPortHeight**: `number`
 
-Defined in: [board-camera/interface.ts:19](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L19)
+Defined in: [board-camera/interface.ts:19](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L19)
 
 #### Inherited from
 
@@ -78,7 +78,7 @@ Defined in: [board-camera/interface.ts:19](https://github.com/niuee/board/blob/e
 
 > **viewPortWidth**: `number`
 
-Defined in: [board-camera/interface.ts:18](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L18)
+Defined in: [board-camera/interface.ts:18](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L18)
 
 #### Inherited from
 
@@ -90,7 +90,7 @@ Defined in: [board-camera/interface.ts:18](https://github.com/niuee/board/blob/e
 
 > `optional` **zoomBoundaries**: [`ZoomLevelLimits`](../type-aliases/ZoomLevelLimits.md)
 
-Defined in: [board-camera/interface.ts:21](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L21)
+Defined in: [board-camera/interface.ts:21](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L21)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: [board-camera/interface.ts:21](https://github.com/niuee/board/blob/e
 
 > **zoomLevel**: `number`
 
-Defined in: [board-camera/interface.ts:17](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L17)
+Defined in: [board-camera/interface.ts:17](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L17)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: [board-camera/interface.ts:17](https://github.com/niuee/board/blob/e
 
 > **convertFromViewPort2WorldSpace**(`point`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/interface.ts:30](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L30)
+Defined in: [board-camera/interface.ts:30](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L30)
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: [board-camera/interface.ts:30](https://github.com/niuee/board/blob/e
 
 > **convertFromWorld2ViewPort**(`point`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/interface.ts:31](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L31)
+Defined in: [board-camera/interface.ts:31](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L31)
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: [board-camera/interface.ts:31](https://github.com/niuee/board/blob/e
 
 > **getCameraOriginInWindow**(`centerInWindow`): [`Point`](../type-aliases/Point.md)
 
-Defined in: [board-camera/interface.ts:29](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L29)
+Defined in: [board-camera/interface.ts:29](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L29)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [board-camera/interface.ts:29](https://github.com/niuee/board/blob/e
 
 > **getTransform**(`devicePixelRatio`, `alignCoordinateSystem`): `object`
 
-Defined in: [board-camera/interface.ts:32](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L32)
+Defined in: [board-camera/interface.ts:32](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L32)
 
 #### Parameters
 
@@ -230,7 +230,7 @@ Defined in: [board-camera/interface.ts:32](https://github.com/niuee/board/blob/e
 
 > **on**\<`K`\>(`eventName`, `callback`): [`UnSubscribe`](../type-aliases/UnSubscribe.md)
 
-Defined in: [board-camera/interface.ts:11](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L11)
+Defined in: [board-camera/interface.ts:11](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L11)
 
 #### Type Parameters
 
@@ -256,7 +256,7 @@ Defined in: [board-camera/interface.ts:11](https://github.com/niuee/board/blob/e
 
 > **setHorizontalBoundaries**(`min`, `max`): `void`
 
-Defined in: [board-camera/interface.ts:27](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L27)
+Defined in: [board-camera/interface.ts:27](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L27)
 
 #### Parameters
 
@@ -282,7 +282,7 @@ Defined in: [board-camera/interface.ts:27](https://github.com/niuee/board/blob/e
 
 > **setMinZoomLevel**(`minZoomLevel`): `void`
 
-Defined in: [board-camera/interface.ts:26](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L26)
+Defined in: [board-camera/interface.ts:26](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L26)
 
 #### Parameters
 
@@ -304,7 +304,7 @@ Defined in: [board-camera/interface.ts:26](https://github.com/niuee/board/blob/e
 
 > **setPosition**(`destination`): `boolean`
 
-Defined in: [board-camera/interface.ts:23](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L23)
+Defined in: [board-camera/interface.ts:23](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L23)
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: [board-camera/interface.ts:23](https://github.com/niuee/board/blob/e
 
 > **setRotation**(`rotation`): `boolean`
 
-Defined in: [board-camera/interface.ts:25](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L25)
+Defined in: [board-camera/interface.ts:25](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L25)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: [board-camera/interface.ts:25](https://github.com/niuee/board/blob/e
 
 > **setVerticalBoundaries**(`min`, `max`): `void`
 
-Defined in: [board-camera/interface.ts:28](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L28)
+Defined in: [board-camera/interface.ts:28](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L28)
 
 #### Parameters
 
@@ -374,7 +374,7 @@ Defined in: [board-camera/interface.ts:28](https://github.com/niuee/board/blob/e
 
 > **setZoomLevel**(`zoomLevel`): `boolean`
 
-Defined in: [board-camera/interface.ts:24](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/board-camera/interface.ts#L24)
+Defined in: [board-camera/interface.ts:24](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/board-camera/interface.ts#L24)
 
 #### Parameters
 

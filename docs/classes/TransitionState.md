@@ -6,7 +6,7 @@
 
 # Class: TransitionState
 
-Defined in: [control-center/pan-control-state-machine.ts:101](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L101)
+Defined in: [control-center/pan-control-state-machine.ts:101](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L101)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [control-center/pan-control-state-machine.ts:101](https://github.com
 
 > **new TransitionState**(): [`TransitionState`](TransitionState.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:103](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L103)
+Defined in: [control-center/pan-control-state-machine.ts:103](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L103)
 
 #### Returns
 
@@ -34,7 +34,7 @@ Defined in: [control-center/pan-control-state-machine.ts:103](https://github.com
 
 > `protected` **\_eventGuards**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<[`PanEventPayloadMapping`](../type-aliases/PanEventPayloadMapping.md), [`PanControlStates`](../type-aliases/PanControlStates.md), [`PanContext`](../type-aliases/PanContext.md), [`Guard`](../type-aliases/Guard.md)\<[`PanContext`](../type-aliases/PanContext.md), `string`\>\>\> = `{}`
 
-Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L109)
+Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L109)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [being/interfaces.ts:109](https://github.com/niuee/board/blob/e6c1ed
 
 > `protected` **\_guards**: [`Guard`](../type-aliases/Guard.md)\<[`PanContext`](../type-aliases/PanContext.md)\> = `{}`
 
-Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L108)
+Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L108)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [being/interfaces.ts:108](https://github.com/niuee/board/blob/e6c1ed
 
 > **eventReactions**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventAction`](../type-aliases/EventAction.md)\<[`PanEventPayloadMapping`](../type-aliases/PanEventPayloadMapping.md), [`PanContext`](../type-aliases/PanContext.md), [`PanControlStates`](../type-aliases/PanControlStates.md)\>\>
 
-Defined in: [control-center/pan-control-state-machine.ts:107](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L107)
+Defined in: [control-center/pan-control-state-machine.ts:107](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L107)
 
 #### Overrides
 
@@ -72,7 +72,7 @@ Defined in: [control-center/pan-control-state-machine.ts:107](https://github.com
 
 > **get** **eventGuards**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\>
 
-Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L115)
+Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L115)
 
 ##### Returns
 
@@ -90,7 +90,7 @@ Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1ed
 
 > **get** **guards**(): [`Guard`](../type-aliases/Guard.md)\<`Context`\>
 
-Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L111)
+Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L111)
 
 ##### Returns
 
@@ -106,7 +106,7 @@ Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1ed
 
 > **handles**\<`K`\>(`stateMachine`, `event`, `payload`, `context`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L127)
+Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L127)
 
 #### Type Parameters
 
@@ -144,7 +144,7 @@ Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1ed
 
 > **lockedOnObjectPanByInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:136](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L136)
+Defined in: [control-center/pan-control-state-machine.ts:136](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L136)
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: [control-center/pan-control-state-machine.ts:136](https://github.com
 
 > **lockedOnObjectPanToInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:141](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L141)
+Defined in: [control-center/pan-control-state-machine.ts:141](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L141)
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: [control-center/pan-control-state-machine.ts:141](https://github.com
 
 > **transitionPanByInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:126](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L126)
+Defined in: [control-center/pan-control-state-machine.ts:126](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L126)
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: [control-center/pan-control-state-machine.ts:126](https://github.com
 
 > **transitionPanToInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:131](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L131)
+Defined in: [control-center/pan-control-state-machine.ts:131](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L131)
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Defined in: [control-center/pan-control-state-machine.ts:131](https://github.com
 
 > **uponEnter**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L119)
+Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L119)
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1ed
 
 > **uponLeave**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L123)
+Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L123)
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1ed
 
 > **userPanByInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:116](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L116)
+Defined in: [control-center/pan-control-state-machine.ts:116](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L116)
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: [control-center/pan-control-state-machine.ts:116](https://github.com
 
 > **userPanToInputHandler**(`stateMachine`, `context`, `payload`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:121](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L121)
+Defined in: [control-center/pan-control-state-machine.ts:121](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L121)
 
 #### Parameters
 

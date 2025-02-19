@@ -6,7 +6,7 @@
 
 # Class: IdleState
 
-Defined in: [input-state-machine/touch-state-machine.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L36)
+Defined in: [input-state-machine/touch-state-machine.ts:36](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L36)
 
 ## Extends
 
@@ -32,7 +32,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:36](https://github.com/n
 
 > `protected` **\_eventGuards**: [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<[`TouchEventMapping`](../type-aliases/TouchEventMapping.md), [`TouchStates`](../type-aliases/TouchStates.md), [`TouchContext`](../interfaces/TouchContext.md), [`Guard`](../type-aliases/Guard.md)\<[`TouchContext`](../interfaces/TouchContext.md), `"touchPointsCount"`\>\>\>
 
-Defined in: [input-state-machine/touch-state-machine.ts:57](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L57)
+Defined in: [input-state-machine/touch-state-machine.ts:57](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L57)
 
 #### Overrides
 
@@ -44,7 +44,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:57](https://github.com/n
 
 > `protected` **\_guards**: [`Guard`](../type-aliases/Guard.md)\<[`TouchContext`](../interfaces/TouchContext.md), `"touchPointsCount"`\>
 
-Defined in: [input-state-machine/touch-state-machine.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L51)
+Defined in: [input-state-machine/touch-state-machine.ts:51](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L51)
 
 #### Overrides
 
@@ -58,7 +58,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:51](https://github.com/n
 
 > **get** **eventGuards**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventGuards`](../type-aliases/EventGuards.md)\<`EventPayloadMapping`, `States`, `Context`, [`Guard`](../type-aliases/Guard.md)\<`Context`, `string`\>\>\>
 
-Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L115)
+Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L115)
 
 ##### Returns
 
@@ -76,7 +76,7 @@ Defined in: [being/interfaces.ts:115](https://github.com/niuee/board/blob/e6c1ed
 
 > **get** **eventReactions**(): [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`EventAction`](../type-aliases/EventAction.md)\<[`TouchEventMapping`](../type-aliases/TouchEventMapping.md), [`TouchContext`](../interfaces/TouchContext.md), [`TouchStates`](../type-aliases/TouchStates.md)\>\>
 
-Defined in: [input-state-machine/touch-state-machine.ts:68](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L68)
+Defined in: [input-state-machine/touch-state-machine.ts:68](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L68)
 
 ##### Returns
 
@@ -94,7 +94,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:68](https://github.com/n
 
 > **get** **guards**(): [`Guard`](../type-aliases/Guard.md)\<`Context`\>
 
-Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L111)
+Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L111)
 
 ##### Returns
 
@@ -110,7 +110,7 @@ Defined in: [being/interfaces.ts:111](https://github.com/niuee/board/blob/e6c1ed
 
 > **handles**\<`K`\>(`stateMachine`, `event`, `payload`, `context`): [`TouchStates`](../type-aliases/TouchStates.md)
 
-Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L127)
+Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L127)
 
 #### Type Parameters
 
@@ -148,7 +148,7 @@ Defined in: [being/interfaces.ts:127](https://github.com/niuee/board/blob/e6c1ed
 
 > **touchend**(`stateMachine`, `context`, `payload`): `"IDLE"` \| `"PENDING"`
 
-Defined in: [input-state-machine/touch-state-machine.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L77)
+Defined in: [input-state-machine/touch-state-machine.ts:77](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L77)
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:77](https://github.com/n
 
 > **touchstart**(`stateMachine`, `context`, `payload`): [`TouchStates`](../type-aliases/TouchStates.md)
 
-Defined in: [input-state-machine/touch-state-machine.ts:72](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/input-state-machine/touch-state-machine.ts#L72)
+Defined in: [input-state-machine/touch-state-machine.ts:72](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/input-state-machine/touch-state-machine.ts#L72)
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [input-state-machine/touch-state-machine.ts:72](https://github.com/n
 
 > **uponEnter**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L119)
+Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L119)
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: [being/interfaces.ts:119](https://github.com/niuee/board/blob/e6c1ed
 
 > **uponLeave**(`stateMachine`, `context`): `void`
 
-Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L123)
+Defined in: [being/interfaces.ts:123](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L123)
 
 #### Parameters
 

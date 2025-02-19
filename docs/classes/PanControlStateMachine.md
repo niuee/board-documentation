@@ -6,7 +6,7 @@
 
 # Class: PanControlStateMachine
 
-Defined in: [control-center/pan-control-state-machine.ts:34](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L34)
+Defined in: [control-center/pan-control-state-machine.ts:34](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L34)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [control-center/pan-control-state-machine.ts:34](https://github.com/
 
 > **new PanControlStateMachine**(`states`, `initialState`, `context`): [`PanControlStateMachine`](PanControlStateMachine.md)
 
-Defined in: [control-center/pan-control-state-machine.ts:36](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L36)
+Defined in: [control-center/pan-control-state-machine.ts:36](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L36)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [control-center/pan-control-state-machine.ts:36](https://github.com/
 
 > `protected` **\_context**: [`PanContext`](../type-aliases/PanContext.md)
 
-Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L48)
+Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L48)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: [being/interfaces.ts:48](https://github.com/niuee/board/blob/e6c1edc
 
 > `protected` **\_currentState**: [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L46)
+Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L46)
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: [being/interfaces.ts:46](https://github.com/niuee/board/blob/e6c1edc
 
 > `protected` **\_happensCallbacks**: (`event`, `payload`, `context`) => `void`[]
 
-Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L51)
+Defined in: [being/interfaces.ts:51](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L51)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ keyof [`PanEventPayloadMapping`](../type-aliases/PanEventPayloadMapping.md)
 
 > `protected` **\_stateChangeCallbacks**: [`StateChangeCallback`](../type-aliases/StateChangeCallback.md)\<[`PanEventPayloadMapping`](../type-aliases/PanEventPayloadMapping.md), [`PanContext`](../type-aliases/PanContext.md), [`PanControlStates`](../type-aliases/PanControlStates.md)\>[]
 
-Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L50)
+Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L50)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: [being/interfaces.ts:50](https://github.com/niuee/board/blob/e6c1edc
 
 > `protected` **\_states**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<[`PanControlStates`](../type-aliases/PanControlStates.md), [`State`](../interfaces/State.md)\<[`PanEventPayloadMapping`](../type-aliases/PanEventPayloadMapping.md), [`PanContext`](../type-aliases/PanContext.md), [`PanControlStates`](../type-aliases/PanControlStates.md)\>\>
 
-Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L47)
+Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L47)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ Defined in: [being/interfaces.ts:47](https://github.com/niuee/board/blob/e6c1edc
 
 > `protected` **\_statesArray**: [`PanControlStates`](../type-aliases/PanControlStates.md)[]
 
-Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L49)
+Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L49)
 
 #### Inherited from
 
@@ -140,7 +140,7 @@ Defined in: [being/interfaces.ts:49](https://github.com/niuee/board/blob/e6c1edc
 
 > **get** **currentState**(): `States`
 
-Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L85)
+Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L85)
 
 ##### Returns
 
@@ -158,7 +158,7 @@ Defined in: [being/interfaces.ts:85](https://github.com/niuee/board/blob/e6c1edc
 
 > **get** **limitEntireViewPort**(): `boolean`
 
-Defined in: [control-center/pan-control-state-machine.ts:56](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L56)
+Defined in: [control-center/pan-control-state-machine.ts:56](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L56)
 
 ##### Returns
 
@@ -168,7 +168,7 @@ Defined in: [control-center/pan-control-state-machine.ts:56](https://github.com/
 
 > **set** **limitEntireViewPort**(`limit`): `void`
 
-Defined in: [control-center/pan-control-state-machine.ts:52](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L52)
+Defined in: [control-center/pan-control-state-machine.ts:52](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L52)
 
 ##### Parameters
 
@@ -188,7 +188,7 @@ Defined in: [control-center/pan-control-state-machine.ts:52](https://github.com/
 
 > **get** **possibleStates**(): `States`[]
 
-Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L93)
+Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L93)
 
 ##### Returns
 
@@ -206,7 +206,7 @@ Defined in: [being/interfaces.ts:93](https://github.com/niuee/board/blob/e6c1edc
 
 > **get** **states**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`States`, [`State`](../interfaces/State.md)\<`EventPayloadMapping`, `Context`, `States`\>\>
 
-Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L97)
+Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L97)
 
 ##### Returns
 
@@ -222,7 +222,7 @@ Defined in: [being/interfaces.ts:97](https://github.com/niuee/board/blob/e6c1edc
 
 > **happens**\<`K`\>(`event`, `payload`, `context`): [`PanControlStates`](../type-aliases/PanControlStates.md)
 
-Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L66)
+Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L66)
 
 #### Type Parameters
 
@@ -256,7 +256,7 @@ Defined in: [being/interfaces.ts:66](https://github.com/niuee/board/blob/e6c1edc
 
 > **initateTransition**(): `void`
 
-Defined in: [control-center/pan-control-state-machine.ts:48](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L48)
+Defined in: [control-center/pan-control-state-machine.ts:48](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L48)
 
 #### Returns
 
@@ -268,7 +268,7 @@ Defined in: [control-center/pan-control-state-machine.ts:48](https://github.com/
 
 > **notifyPanInput**(`diff`): `void`
 
-Defined in: [control-center/pan-control-state-machine.ts:40](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L40)
+Defined in: [control-center/pan-control-state-machine.ts:40](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L40)
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: [control-center/pan-control-state-machine.ts:40](https://github.com/
 
 > **notifyPanToAnimationInput**(`target`): `void`
 
-Defined in: [control-center/pan-control-state-machine.ts:44](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/control-center/pan-control-state-machine.ts#L44)
+Defined in: [control-center/pan-control-state-machine.ts:44](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/control-center/pan-control-state-machine.ts#L44)
 
 #### Parameters
 
@@ -304,7 +304,7 @@ Defined in: [control-center/pan-control-state-machine.ts:44](https://github.com/
 
 > **onHappens**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L81)
+Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L81)
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: [being/interfaces.ts:81](https://github.com/niuee/board/blob/e6c1edc
 
 > **onStateChange**(`callback`): `void`
 
-Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L77)
+Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L77)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: [being/interfaces.ts:77](https://github.com/niuee/board/blob/e6c1edc
 
 > **setContext**(`context`): `void`
 
-Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L89)
+Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L89)
 
 #### Parameters
 
@@ -370,7 +370,7 @@ Defined in: [being/interfaces.ts:89](https://github.com/niuee/board/blob/e6c1edc
 
 > **switchTo**(`state`): `void`
 
-Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L62)
+Defined in: [being/interfaces.ts:62](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L62)
 
 #### Parameters
 

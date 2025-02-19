@@ -8,7 +8,7 @@
 
 > **GuardEvaluation**\<`Context`\>: (`context`) => `boolean`
 
-Defined in: [being/interfaces.ts:29](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/being/interfaces.ts#L29)
+Defined in: [being/interfaces.ts:29](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/being/interfaces.ts#L29)
 
 ## Type Parameters
 

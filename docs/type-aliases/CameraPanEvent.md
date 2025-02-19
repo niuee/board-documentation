@@ -8,7 +8,7 @@
 
 > **CameraPanEvent**: `object` & [`CameraPanEventPayload`](CameraPanEventPayload.md)
 
-Defined in: [camera-observer/camera-observer.ts:27](https://github.com/niuee/board/blob/e6c1edcccf6525a0cc9088782c7c4653e837f533/src/camera-observer/camera-observer.ts#L27)
+Defined in: [camera-observer/camera-observer.ts:27](https://github.com/niuee/board/blob/d74620e4e63da3004adfc7105b7f1136fce9577c/src/camera-observer/camera-observer.ts#L27)
 
 ## Type declaration
 
